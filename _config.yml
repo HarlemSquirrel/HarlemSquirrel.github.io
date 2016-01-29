@@ -9,10 +9,9 @@
 title: Ramblings of a Squirrel
 email: wittyman37@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the blog of a web developer, musician, educator, and open source enthusiest.
-  Oh, and keep away from my acorns!
+  Things may get a little nuts...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://harlemsquirrel.github.io" # the base hostname & protocol for your site
 twitter_username: kevinwmccormack
 github_username:  HarlemSquirrel
 
