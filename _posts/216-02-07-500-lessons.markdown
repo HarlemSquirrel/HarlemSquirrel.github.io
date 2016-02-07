@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "500 Lessons on Learn.co"
+date:   2016-02-07 12:58:00 -0500
+categories: jekyll update
+---
+![500_lessons_screenshot](/assets/images/Screenshot_from_2016-02-07_12-56-40.png)
+
+So today I finished the 500th lesson in my journey to become a web developer. Wow, it has been quite a journey so far.
+
+I began as a teaching fellow just a few months ago in the fall. I was having so much fun working through the lessons and puzzles in my spare time that I finished in about two months! I am pretty sure that I was the first to finish. I wanted more.
+
+I then began to work through the advanced track delving further into Sinatra but soon found that to be not enough. And so in January I decided to go full force and enroll in Learn Verified. Many of the lessons I completed in the teacher track carried over into the web development track so I was already ahead of the game. Nice!
+
+It has been great that I had to revisit much of the curriculum to do lessons and labs here and there as this was a perfect refresher from my first go through. I feel more confident!
+
+I am now deep into Sinatra with 10 lessons left. The people that I've talked to have been really helpful and supporting. Avi gave me some great feedback on my farmers market gem.
+
+I am really looking forward to continuing to grow and learn. There is so much to absorb but it is quite a ride!
