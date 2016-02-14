@@ -63,9 +63,10 @@ One of the requirements of this project was handling some errors by delivering m
     end
 {% endhighlight %}
 
-I really have learned a lot here and this was quite fun! I cannot wait to move forward and continue my adventure with [Learn Verified][learn-verified].
+I really have learned a lot here and this was quite fun! I posted a [walkthrough video][walkthrough] where you can see the user interface. I cannot wait to move forward and continue my adventure with [Learn Verified][learn-verified].
 
 
 [classroom-library]: https://github.com/HarlemSquirrel/classroom-library
 [sinatra-flash]: https://github.com/SFEley/sinatra-flash
 [learn-verified]: https://learn.co/verified
+[walkthrough]: https://www.youtube.com/watch?v=RnCwkE9IVN4
