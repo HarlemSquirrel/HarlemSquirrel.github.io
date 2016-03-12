@@ -41,7 +41,7 @@ end
 
 OK, so then I wondered how I could apply this to my reviews controller. I copied over the private `redirect_guests` method and put my clever little `return redirect_guests unless logged_in?` in the new, create, edit, and update action methods. Oh yeah! Wait, can't I share this `redirect_guests` method between controllers? Of course, so I put it in my `ApplicationController` where my reviews and books controllers are inheriting from. Nice and DRY!
 
-I implemented all the many requirements of this project one by one. I used [devise][devise-git] for secure user login, the [Twitter OmniAuth gem][omniauth-twitter] for logging in with Twitter, [HTML 5 Datalists][html-5-datalist] for my book form, and more!
+I implemented all the many requirements of this project one by one. I used [devise][devise-git] for secure user login, the [Twitter OmniAuth gem][omniauth-twitter] for logging in with Twitter, [HTML 5 Datalists][html5-datalist] for my book form, and more!
 
 To test my app, I employed a suite of available gems. I used [Faker][faker] to create seed data. The [RSpec-rails][rspec-rails] gem coupled with [Shoulda][shoulda] and [FactoryGirl][factorygirl] made testing much easier! This was my first shot at creating a large test suite. I learned quite a bit and found it really useful to run my tests while refactoring my code and adding features. It helped me catch a bunch of errors and loopholes quickly and without having to run my app and click around. I definitely now see the power of test-driven development.
 
@@ -53,7 +53,9 @@ I really have learned a lot here and this was quite fun! I posted a [walkthrough
 [devise-git]: https://github.com/plataformatec/devise
 [faker]: https://github.com/stympy/faker
 [omniauth-twitter]: https://github.com/arunagw/omniauth-twitter
+[html5-datalist]: http://www.w3schools.com/tags/tag_datalist.asp
 [factorygirl]: https://github.com/thoughtbot/factory_girl
 [rspec-rails]: https://github.com/rspec/rspec-rails
 [shoulda]: https://github.com/thoughtbot/shoulda
 [walkthrough]: https://www.youtube.com/watch?v=SvQSrmWojds
+[learn-verified]: https://learn.co/verified
