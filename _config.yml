@@ -17,3 +17,12 @@ github_username:  HarlemSquirrel
 
 # Build settings
 markdown: kramdown
+
+# Plugins
+gems: [jekyll-paginate]
+
+# Outputting
+paginate: 10
+
+liquid:
+  error_mode: warn
