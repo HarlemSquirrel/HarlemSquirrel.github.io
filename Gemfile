@@ -2,5 +2,5 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'jekyll', '~> 3.3'
-gem 'jekyll-paginate'
+gem 'jekyll', '~> 3.4'
+gem 'jekyll-paginate', '~> 1.1'
