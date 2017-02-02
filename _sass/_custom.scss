@@ -1,5 +1,15 @@
-.pagination,
-.rss-subscribe {
-  display: inline-block;
-  width: 48%;
+.site-title {
+  &:link, &:visited {
+    color: #ddd;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-title {
+    font-size: 1.2rem;
+  }
+  .site-nav {
+    background-color: #111;
+    background-color: $darker-glass;
+  }
 }
