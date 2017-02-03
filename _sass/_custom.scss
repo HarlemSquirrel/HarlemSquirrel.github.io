@@ -4,6 +4,20 @@
   }
 }
 
+.about-pic {
+  box-shadow: 5px 5px 5px 0px #ddd;
+  display: inline-block;
+  margin: 0 1rem;
+  vertical-align: middle;
+  width: 10rem;
+}
+
+.about-p {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 13rem);
+}
+
 @media (max-width: 600px) {
   .site-title {
     font-size: 1.2rem;
@@ -11,5 +25,16 @@
   .site-nav {
     background-color: #111;
     background-color: $darker-glass;
+  }
+
+  .about-p {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .about-pic {
+    text-align: center;
+    margin: 1rem 0;
   }
 }

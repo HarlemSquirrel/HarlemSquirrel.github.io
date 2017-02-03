@@ -1,0 +1,34 @@
+---
+layout: default_light
+---
+<article class="resume">
+
+  <header class="post-header">
+    <h1 class="post-title">Kevin McCormack</h1>
+    <ul class="list-horizontal">
+      <li>
+        <a href="#" onclick="window.print();return false;" title="Print">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+            <path d="M18 8h-1V4H7v4H3v6c0 1.7 1.3 3 3 3h1v3h10v-3h4v-6c0-1.7-1.3-3-3-3zM8 5h8v3H8V5zm8 14H8v-6h8v6z"/>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <button type="button" name="dark_light" onclick="togglePageContentLightDark()" title="Toggle dark/light mode">🌛</button>
+      </li>
+    </ul>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+
+<script type="text/javascript">
+  function togglePageContentLightDark() {
+    var pageContent = document.getElementById("page-content");
+    var currentClass = pageContent.className;
+    pageContent.className = currentClass == "page-content" ? "page-content-light" : "page-content";
+  }
+</script>
