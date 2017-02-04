@@ -11,7 +11,7 @@ permalink: /resume
 ## About Me
 
 ![Me at Watkins Glen](https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg){: .resume-pic }
-Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I documentment my work in detail using Git and am familiar with both GitHub and Bitbucket. I am proficient with Ruby on Rails and shell scripting on the server side as well as HTML, CSS (including SCSS), and JavaScript (including jQuery) on the client side. Since the fall of 2016 I have been working closely with senior engineers, sales teams, and product teams at [Constant Contact](https://www.constantcontact.com) to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams. I believe that every application should have a comprehensive test suite. Continous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime. 
+Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I document my work in detail using Git and am familiar with both GitHub and Bitbucket. I am proficient with Ruby on Rails and shell scripting on the server side as well as HTML, CSS (including SCSS), and JavaScript (including jQuery) on the client side. Since the fall of 2016, I have been working closely with senior engineers, sales teams, and product teams at [Constant Contact](https://www.constantcontact.com) to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams. I believe that every application should have a comprehensive test suite. Continous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime. 
 
 ## Work History
 **Constant Contact, New York, NY**
@@ -20,7 +20,7 @@ Software Engineer, October 2016 - Present
 - Work on a small team of engineers that works closely with the sales and product teams
 - Engage in agile development including team feature planning with Jira
 - Develop and maintain three Rails apps that advertise on Facebook for small businesses and nonprofits
-- Ensure high code quality with Git, CodeClimate and CircleCI
+- Ensure high code quality with Git, CodeClimate, and CircleCI
 - Practice test-driven development with RSpec and Capybara in comprehensive test suites
 - Deploy, monitor and debug production apps through Heroku, Honeybadger, Jenkins, New Relic, and Splunk
 
@@ -39,17 +39,6 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Honored by Academy for Teachers for innovation as a computer science educator
 - Commissioned by PERC to create digital resources for the Exploring Computer Science curriculum
 - Commissioned by New Visions to create Google Apps for School Operations screencast tutorials
-
-## Education
-
-**Flatiron School - New York, NY - 2016**
-- Full Stack Web Development, Ruby on Rails and JavaScript online immersive program
-
-**Wilkes University - Wilkes-Barre, PA - 2011**
-- MS: Instructional Media
-
-**City College of New York - New York, NY - 2008**
-- BFA: Jazz Performance and Education
 
 ## Projects
 **[AdLauncher](https://adlauncher.io)** - Getting results from Facebook advertising is hard. We make it easy.
@@ -95,3 +84,14 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 
 - Used OpenURI with caching to minimize requests to the API
 - Pulled data from NYC Open Data API
+
+## Education
+
+**Flatiron School - New York, NY - 2016**
+- Full Stack Web Development, Ruby on Rails and JavaScript online immersive program
+
+**Wilkes University - Wilkes-Barre, PA - 2011**
+- MS: Instructional Media
+
+**City College of New York - New York, NY - 2008**
+- BFA: Jazz Performance and Education
