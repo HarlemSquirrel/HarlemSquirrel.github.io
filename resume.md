@@ -6,12 +6,12 @@ permalink: /resume
 
 |     |      |
 | --- | ---: |
-| [917.209.0326](tel:+1-917-209-0326)  | [HarlemSquirrel@gmail.com](mailto:harlemsquirrel@gmail.com) |
+| [917.209.0326](tel:+1-917-209-0326) | [HarlemSquirrel@gmail.com](mailto:harlemsquirrel@gmail.com) |
 
 ## About Me
 
-<img align="right" src="https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg" class="resume-pic">
-Since 2016 I have built, deployed, and maintained full stack web applications. I am proficient with Ruby on Rails, Heroku and Linux on the server side as well as HTML, CSS (including SCSS), and JavaScript (including jQuery) on the client side. Since October 2016 I have been working closely with senior engineers, sales teams, and product teams at [Constant Contact](https://www.constantcontact.com) to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams. Through test-driven development, automated deployments and detailed performance monitoring I build out features, monitor performance, and debug commercial software to minimize downtime and maximize throughput.
+![Me at Watkins Glen](https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg){: .resume-pic }
+Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I documentment my work in detail using Git and am familiar with both GitHub and Bitbucket. I am proficient with Ruby on Rails and shell scripting on the server side as well as HTML, CSS (including SCSS), and JavaScript (including jQuery) on the client side. Since the fall of 2016 I have been working closely with senior engineers, sales teams, and product teams at [Constant Contact](https://www.constantcontact.com) to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams. I believe that every application should have a comprehensive test suite. Continous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime. 
 
 ## Work History
 **Constant Contact, New York, NY**
@@ -56,7 +56,7 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 
 - Coordinate with a diverse team of engineers, product, and sales personnel
 - Use Rails 4.2 and gems including activeadmin, devise, ransack, state_machines, and sidekiq
-- Use Bootstrap 4 and custom CSS to style front end
+- Use Bootstrap 4 and custom SCSS to style front end
 - Process payments using the Stripe API
 - Deploy from Github to Heroku with add-ons such as Mailgun and Redis To Go
 - Connect to FacebookAdsAdapter and ConstantContact APIs
