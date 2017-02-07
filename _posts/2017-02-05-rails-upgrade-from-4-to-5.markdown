@@ -36,6 +36,30 @@ class ApplicationJob < ActiveJob::Base
 end
 ```
 
+## rails app:update
+
+To assist in upgrading the bin and config files we can use the very slick [rails udate task][rails-update-task]. First I installed the latest version of rails.
+
+```
+$ gem install rails
+```
+
+Then I ran the commandline utility. This walked me through each file and its changes. I can view the diff with option `d`
+
+```shell
+$ rails app:update
+    conflict  config/boot.rb
+Overwrite /home/hs/heroku/truhawk/config/boot.rb? (enter "h" for help) [Ynaqdh] d
+- ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../../Gemfile', __FILE__)
++ ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__)
+
+  require 'bundler/setup' # Set up gems listed in the Gemfile.
+Retrying...
+Overwrite /home/hs/heroku/truhawk/config/boot.rb? (enter "h" for help) [Ynaqdh]
+```
+
+Some of the changes are simple like this one and I simply chose to overrite by entering `y`. Other changes where more complex and I chose to keep my file by entering `n` and made any necessary changes manually. This processes takes a few minutes at least to go though but it's important to see what is changing. The following shows the key changes I made.
+
 ## Transactional Callbacks
 
 As indicated in the [Rails Guides Rails 5.0 release notes][rails_guides_rail_5_release_notes], transaction callbacks do not gobble up errors anymore and just allow them to bubble up similar to other callbacks. This means that `raise_in_transactional_callbacks` is depricated so I removed `config.active_record.raise_in_transactional_callbacks = true` from `config/application.rb`.
@@ -92,4 +116,5 @@ A big thanks to all who contributed to this awesome update to this amazing frame
 
 [rails5_final]: http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/
 [rails_guides_upgrading]: http://guides.rubyonrails.org/upgrading_ruby_on_rails.html
-[edge_guides_rail_5_release_notes]: http://edgeguides.rubyonrails.org/5_0_release_notes.html
+[rails_guides_rail_5_release_notes]: http://edgeguides.rubyonrails.org/5_0_release_notes.html
+[rails-update-task]: http://guides.rubyonrails.org/upgrading_ruby_on_rails.html#the-update-task
