@@ -38,7 +38,7 @@ end
 
 ## rails app:update
 
-To assist in upgrading the bin and config files we can use the very slick [rails udate task][rails-update-task]. First I installed the latest version of rails.
+To assist in upgrading the bin and config files we can use the very slick [rails update task][rails-update-task]. First I installed the latest version of rails.
 
 ```
 $ gem install rails
