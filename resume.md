@@ -4,14 +4,13 @@ title: Resume
 permalink: /resume
 ---
 
-|     |      |
-| --- | ---: |
-| [917.209.0326](tel:+1-917-209-0326) | [HarlemSquirrel@gmail.com](mailto:harlemsquirrel@gmail.com) |
+[917.209.0326](tel:+1-917-209-0326) | [HarlemSquirrel@gmail.com](mailto:harlemsquirrel@gmail.com)
+
 
 ## About Me
 
 ![Me at Watkins Glen](https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg){: .resume-pic }
-Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I document my work in detail using Git and am familiar with both GitHub and Bitbucket. I am proficient with Ruby on Rails and shell scripting on the server side as well as HTML, CSS (including SCSS), and JavaScript (including jQuery) on the client side. Since the fall of 2016, I have been working closely with senior engineers, sales teams, and product teams at [Constant Contact](https://www.constantcontact.com) to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams. I believe that every application should have a comprehensive test suite. Continous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime. 
+Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I document my work in detail using Git and am familiar with both GitHub and Bitbucket. I am proficient with Ruby on Rails and shell scripting on the server side as well as HTML, CSS (including SCSS), and JavaScript (including jQuery) on the client side. Since the fall of 2016, I have been working closely with senior engineers, sales teams, and product teams at [Constant Contact](https://www.constantcontact.com) to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams. I believe that every application should have a comprehensive test suite. Continous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
 
 ## Work History
 **Constant Contact, New York, NY**

@@ -14,6 +14,18 @@
   }
 }
 
+header {
+  margin-bottom: 0 !important;
+  h1 {
+    display: inline-block;
+    min-width: 25rem;
+    width: calc(100% - 9rem)
+  }
+  svg {
+    fill: $brand-color;
+  }
+}
+
 button[name="dark_light"] {
   background-color: #ddd;
   border: none;
@@ -39,24 +51,18 @@ button[name="dark_light"] {
 
 .resume {
   table {
-    width: 100%
+    text-align: center;
+    font-weight: bold;
+    td {
+      padding-right: 1rem;
+    }
+    // width: 80%;
   }
   img.resume-pic {
     box-shadow: 10px 10px 5px 0px #333;
     float: right;
     margin: 1rem;
     width: 15rem;
-  }
-}
-
-header {
-  h1 {
-    display: inline-block;
-    min-width: 25rem;
-    width: calc(100% - 9rem)
-  }
-  svg {
-    fill: $brand-color;
   }
 }
 
@@ -67,6 +73,11 @@ header {
     text-shadow: none !important;
     filter: none !important;
     -ms-filter: none !important;
+    font-size: 0.9rem;
+  }
+
+  header, h1 {
+    margin-bottom: 0 !important;
   }
 
   a, a:visited {
@@ -107,6 +118,7 @@ header {
   p, h2, h3 {
     orphans: 3;
     widows: 3;
+    margin-bottom: 0.5rem;
   }
   h2, h3 {
     page-break-after: avoid;
