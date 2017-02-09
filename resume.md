@@ -5,12 +5,16 @@ permalink: /resume
 ---
 
 [917.209.0326](tel:+1-917-209-0326) | [HarlemSquirrel@gmail.com](mailto:harlemsquirrel@gmail.com)
-
+{: .contact-table }
 
 ## About Me
 
 ![Me at Watkins Glen](https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg){: .resume-pic }
-Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I document my work in detail using Git and am familiar with both GitHub and Bitbucket. I am proficient with Ruby on Rails and shell scripting on the server side as well as HTML, CSS (including SCSS), and JavaScript (including jQuery) on the client side. Since the fall of 2016, I have been working closely with senior engineers, sales teams, and product teams at [Constant Contact](https://www.constantcontact.com) to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams. I believe that every application should have a comprehensive test suite. Continous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
+Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I document my work in detail using Git and am familiar with both GitHub and Bitbucket. I believe that every application should have a comprehensive test suite. Continous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
+
+I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery).
+
+Since the fall of 2016, I have been a Software Engineer at [Constant Contact](https://www.constantcontact.com) working closely with senior engineers, sales teams, and product teams to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams.
 
 ## Work History
 **Constant Contact, New York, NY**
@@ -24,10 +28,11 @@ Software Engineer, October 2016 - Present
 - Deploy, monitor and debug production apps through Heroku, Honeybadger, Jenkins, New Relic, and Splunk
 
 **Flatiron School, New York, NY**
-Learn Expert, May 2016 - October 2016
+Online Instructor, May 2016 - October 2016
 
-- Field student coding and development environment questions
-- Triage issues with the Learn integrated development environment
+- Assisted students learning full stack web development with Ruby on Rails and JavaScript
+- Fielded student coding and development environment questions
+- Triaged issues with the Learn integrated development environment
 
 **East Bronx Academy, Bronx, NY**
 Teacher and Solutions Architect, Aug 2008 - September 2016
@@ -67,30 +72,25 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Use JQuery and custom JavaScript to enhance front-end with asynchronous AJAX requests
 
 ## Open Source Contributions
-**[3D Printable Designs](http://www.thingiverse.com/HarlemSquirrel/designs)**
 
-- Constructed functional and decorative designs with Blender and OpenSCAD
+**[3D Printable Designs](http://www.thingiverse.com/HarlemSquirrel/designs)** - Constructed functional and decorative designs with Blender and OpenSCAD
 
-**[EBA Setup Scripts ](https://github.com/HarlemSquirrel/eba-setup-scripts)**
+**[EBA Setup Scripts](https://github.com/HarlemSquirrel/eba-setup-scripts)** - Developed a set of scripts to automate and simplify Linux client deployment and maintenance
 
-- Developed a set of scripts to automate and simplify Linux client deployment and maintenance
+**[GNOME Shell Extensions](https://extensions.gnome.org/accounts/profile/HarlemSquirrel)** - Crafted using GNOME JavaScript
 
-**[GNOME Shell Extensions](https://extensions.gnome.org/accounts/profile/HarlemSquirrel)**
-
-- Crafted using GNOME JavaScript
-
-**[NYC Farmer’s Markets Ruby CLI Gem](https://github.com/HarlemSquirrel/nyc-farmers-markets-cli-gem)**
-
-- Used OpenURI with caching to minimize requests to the API
-- Pulled data from NYC Open Data API
+**[NYC Farmer’s Markets Ruby CLI Gem](https://github.com/HarlemSquirrel/nyc-farmers-markets-cli-gem)** - Pulled data from NYC Open Data API
 
 ## Education
 
 **Flatiron School - New York, NY - 2016**
+
 - Full Stack Web Development, Ruby on Rails and JavaScript online immersive program
 
 **Wilkes University - Wilkes-Barre, PA - 2011**
+
 - MS: Instructional Media
 
 **City College of New York - New York, NY - 2008**
+
 - BFA: Jazz Performance and Education
