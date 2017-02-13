@@ -89,9 +89,9 @@ To help keep my code neat, I wrote my functions inside app/assets/javascripts/bo
 </script>
 {% endhighlight %}
 
-I on the books index page, I also implemented a form that could be toggled viewable, and when submitted would automagically add the new book to the page! This was fun and I could see this as a practical feature for some websites as it could reduce the time it takes to add content.
+I on the books index page, I also implemented a form that could be toggled viewable, and when submitted would auto-magically add the new book to the page! This was fun and I could see this as a practical feature for some websites as it could reduce the time it takes to add content.
 
-This was challenging because Javascript and jQuery have their quirks that I find quite annoying coming from months of ruby. I found it difficult to store the results of ajax requests in a variable, so I just had to avoid it. Overall this project was a unique challenge and a great learning experience as I move forward in my Learn Verified adventure!
+This was challenging because Javascript and jQuery have their quirks that I find quite annoying coming from months of ruby. I found it difficult to store the results of AJAX requests in a variable, so I just had to avoid it. Overall this project was a unique challenge and a great learning experience as I move forward in my Learn Verified adventure!
 
 
 [eworm]: https://github.com/HarlemSquirrel/eworm

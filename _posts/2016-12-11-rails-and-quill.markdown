@@ -20,7 +20,7 @@ Or it can be robust!
 
 ## [Getting started][getting-started]
 
-1. Include the stylesheet
+1. Include the style sheet
 2. Create the editor content
 3. Include the Quill library
 4. Initiate Quill editor

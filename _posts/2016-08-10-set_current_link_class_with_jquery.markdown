@@ -57,7 +57,7 @@ function setNavLinkClassToCurrent(navClass) {
 }
 {% endhighlight %}
 
-Now we're talking! I can reuse this puppy by just calling `setNavLinkClassToCurrent('.user-nav')`, `setNavLinkClassToCurrent('.main-nav')`, or `setNavLinkClassToCurrent('.beer-nav')`. I could even go a step futher if we wanted to have our pick of CSS classes to apply.
+Now we're talking! I can reuse this puppy by just calling `setNavLinkClassToCurrent('.user-nav')`, `setNavLinkClassToCurrent('.main-nav')`, or `setNavLinkClassToCurrent('.beer-nav')`. I could even go a step further if we wanted to have our pick of CSS classes to apply.
 
 {% highlight js %}
 function setCurrentNavLinkClass(navClass, linkClass) {

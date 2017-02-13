@@ -44,7 +44,7 @@ To assist in upgrading the bin and config files we can use the very slick [rails
 $ gem install rails
 ```
 
-Then I ran the commandline utility. This walked me through each file and its changes. I can view the diff with option `d`
+Then I ran the command-line utility. This walked me through each file and its changes. I can view the diff with option `d`
 
 ```shell
 $ rails app:update
@@ -58,7 +58,7 @@ Retrying...
 Overwrite /home/hs/heroku/truhawk/config/boot.rb? (enter "h" for help) [Ynaqdh]
 ```
 
-Some of the changes are simple like this one and I simply chose to overrite by entering `y`. Other changes where more complex and I chose to keep my file by entering `n` and made any necessary changes manually. This processes takes a few minutes at least to go though but it's important to see what is changing. The following shows the key changes I made.
+Some of the changes are simple like this one and I simply chose to overwrite by entering `y`. Other changes where more complex and I chose to keep my file by entering `n` and made any necessary changes manually. This processes takes a few minutes at least to go though but it's important to see what is changing. The following shows the key changes I made.
 
 ## Transactional Callbacks
 
@@ -87,9 +87,9 @@ end
 
 ## Security
 
-Rails 5 now supports per-form CSRF tokens. Forms created with JavaScript can now have protection against code-injection attacks. Each form in the application will each have their own CSRF token that is specified to the action and method for that form. I defintiely wanted to enable little guy.
+Rails 5 now supports per-form CSRF tokens. Forms created with JavaScript can now have protection against code-injection attacks. Each form in the application will each have their own CSRF token that is specified to the action and method for that form. I definitely wanted to enable little guy.
 
-We can now also configure our application to check if the HTTP Origin header should be checked against the site's origin as an additional defense agains cross-site request forgery. Why would I not do this enabled in a public-facing app?
+We can now also configure our application to check if the HTTP Origin header should be checked against the site's origin as an additional defense against cross-site request forgery. Why would I not do this enabled in a public-facing app?
 
 ```ruby
 # config/environments/development.rb
@@ -109,7 +109,7 @@ end
 
 ## Pull the trigger
 
-After these changes I was able to edit my Gemfile with `gem 'rails', '~> 5.0.1'` and run `bundle update rails`! It didn't take long at all. Next I ran my test suite and grabbed a beer--success! All the tests passed! I fired up a local server and took her for a test drive. Everything felt smooth and responsive. There was a palpable improvment.
+After these changes I was able to edit my Gemfile with `gem 'rails', '~> 5.0.1'` and run `bundle update rails`! It didn't take long at all. Next I ran my test suite and grabbed a beer--success! All the tests passed! I fired up a local server and took her for a test drive. Everything felt smooth and responsive. There was a palpable improvement.
 
 A big thanks to all who contributed to this awesome update to this amazing framework. Go open source!!
 

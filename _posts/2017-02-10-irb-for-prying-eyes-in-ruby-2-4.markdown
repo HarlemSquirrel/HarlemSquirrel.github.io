@@ -7,7 +7,7 @@ categories: ruby
 
 Back in the day we used [IRB][irb], or "interactive Ruby" for debugging. We could type or paste in code and have it evaluated right there. This was fine except when we started to include lots of libraries like Rails. This makes debugging with IRB impractical if not impossible.
 
-Next, we had the wonderful gem known as [Pry][pry]. It has been an essential tool on the toolbelt for Ruby developers. Pry has allowed us to stop our software exactly where we want to and poke around in hopes of identifying what has been driving us to drink before noon. We just dropped `binding.pry` where we needed it and ran our program. We then had access to all the classes and variables that our code would have access to at that line in our code.
+Next, we had the wonderful gem known as [Pry][pry]. It has been an essential tool on the tool belt for Ruby developers. Pry has allowed us to stop our software exactly where we want to and poke around in hopes of identifying what has been driving us to drink before noon. We just dropped `binding.pry` where we needed it and ran our program. We then had access to all the classes and variables that our code would have access to at that line in our code.
 
 With the release of Ruby 2.4 we now have `binding.irb` baked right in! Let's install using [RVM][rvm] and take her for a test drive!
 
@@ -28,7 +28,7 @@ puts 'Welcome to binding.irb!'
 binding.irb
 ```
 
-Then we just run our little program from the commandline.
+Then we just run our little program from the command line.
 
 ```
 $ ruby irb-trial.rb

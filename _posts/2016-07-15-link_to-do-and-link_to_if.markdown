@@ -5,7 +5,7 @@ date:   2016-07-15 10:01:00 -0500
 categories: rails links helpers
 ---
 
-If you are building web applications with Ruby on Rails then you likely have used the `link_to` helper to build hyperlinks. It's a more developer-friendly way of adding links to erb templates and can be used with other helpers like `new_session_path` provided by devise. So...
+If you are building web applications with Ruby on Rails then you likely have used the `link_to` helper to build hyperlinks. It's a more developer-friendly way of adding links to ERB templates and can be used with other helpers like `new_session_path` provided by devise. So...
 {% highlight erb %}
 <%= link_to 'Log In', new_session_path %>
 <!-- becomes -->

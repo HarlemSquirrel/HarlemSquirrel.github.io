@@ -12,7 +12,7 @@ Ok...back to my new gem. So there I was, tasked with magically crafting a Ruby g
 
 I searched through [NYC Open Data][nyc-open-data] looking for something that interested me. I ran across a few things peeked my interest but many of them were quite large and/or full of inconsistent data such as location information in the year key...go figure?! I then stumbled upon a nice set of data about farmers markets with most data intact! Eureka!
 
-I had to research a variety of tools to help get this job done. I used the structure of dannyd4315's [Worlds Best Restaurants CLI Gem][wbr-cli-gem] and the [Make Your Own Gem][make-your-own-gems] guide from RubyGems.org as a jumping off point. I found tigris's [OpenURI with caching gem][open-uri-cached] that helped to reduce the number of times my gem had to contact the API. The [colorize gem][colorize] from fazibear helped to give my CLI some color and pop!
+I had to research a variety of tools to help get this job done. I used the structure of dannyd4315's [Worlds Best Restaurants CLI Gem][wbr-cli-gem] and the [Make Your Own Gem][make-your-own-gems] guide from RubyGems.org as a jumping off point. I found [tigris's OpenURI with caching gem][open-uri-cached] that helped to reduce the number of times my gem had to contact the API. The [colorize gem from fazibear][colorize] helped to give my CLI some color and pop!
 
 I used `open-uri-cached` and `JSON` to turn the `.json` file into a hash that I could work with:
 
@@ -64,7 +64,7 @@ print "\t"; 15.times { print "#{flower}  ".light_blue }; puts ""
 
 I spent a good deal of time testing my CLI and looking for places to clean up my code. I remembered the mantra "commit early and often" and so I did! I have 18 commits as of the writing of this post. I tried to use `\n` for new lines and `\t` for tabs instead of using `puts ""` or `puts "    "` where I could. I tried to move my fancy printing code to methods instead of having that done right in the `case` statement to keep that as dry as possible. I started by displaying the possible commands at every run of my loop but then realized that was too messy as I added commands so I moved that to a help command and the `puts` code to it's own method.
 
-I really learned quite a lot here and it was really fun! I am next going to work on getting my gem published and making a walkthrough video. I will post the video here when it's live. 
+I really learned quite a lot here and it was really fun! I am next going to work on getting my gem published and making a walk-through video. I will post the video here when it's live.
 
 [nyc-farmers-market-api]: https://dev.socrata.com/foundry/data.cityofnewyork.us/cw3p-q2v6
 [learn-verified]: https://learn.co/verified
