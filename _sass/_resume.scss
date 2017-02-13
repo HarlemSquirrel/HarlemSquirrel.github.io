@@ -66,6 +66,16 @@ button[name="dark_light"] {
   }
 }
 
+ul.list-plus {
+  list-style: none;
+  margin-left: 0.5rem;
+
+  li:before {
+    content: '+';
+    padding-right: 0.5rem;
+  }
+}
+
 @media print {
   * {
     background: transparent !important;
