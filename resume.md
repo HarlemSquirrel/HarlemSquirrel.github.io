@@ -14,7 +14,7 @@ Since 2016 I have built, deployed, and maintained full stack web applications on
 
 I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery).
 
-Since the fall of 2016, I have been a Software Engineer at [Constant Contact](https://www.constantcontact.com) working closely with senior engineers, sales teams, and product teams to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams. 
+Since the fall of 2016, I have been a Software Engineer at [Constant Contact](https://www.constantcontact.com) working closely with senior engineers, sales teams, and product teams to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams.
 
 ### Work History
 **Constant Contact, New York, NY**
@@ -39,13 +39,13 @@ Online Instructor, May 2016 - October 2016
 **East Bronx Academy, Bronx, NY**
 Teacher and Solutions Architect, Aug 2008 - September 2016
 
-- Designed and taught year-long curriculum for computer science and music for students in grades 6-12
+- Designed and taught year-long curriculum for computer science and music in grades 6-12
 - Administered Google Apps for Education account with over 800 active users
 - Wrote shell scripts and custom OS images to automate Linux desktop deployments
 - Honored by Academy for Teachers for innovation as a computer science educator
 - Commissioned by PERC to create digital resources for the Exploring Computer Science curriculum
 - Commissioned by New Visions to create Google Apps for School Operations screencast tutorials
-{: .list-plus}
+{: .list-plus.print-page-break }
 
 ### Projects
 **[AdLauncher](https://adlauncher.io)** - Getting results from Facebook advertising is hard. We make it easy.
