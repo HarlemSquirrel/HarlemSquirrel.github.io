@@ -48,7 +48,7 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 {: .list-plus.print-page-break }
 
 ### Projects
-**[AdLauncher](https://adlauncher.io)** - Getting results from Facebook advertising is hard. We make it easy.
+**[AdLauncher](https://adlauncher.io)** - Making Facebook advertising easy
 
 - Coordinate with a diverse team of engineers, product, and sales personnel
 - Use Rails 4.2 and gems including activeadmin, devise, ransack, state_machines, and sidekiq
