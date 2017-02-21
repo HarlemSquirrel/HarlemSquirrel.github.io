@@ -10,7 +10,7 @@ permalink: /resume
 ### About Me
 
 ![Me at Watkins Glen](https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg){: .resume-pic }
-Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I document my work in detail using Git and am familiar with both GitHub and Bitbucket. I believe that every application should have a comprehensive test suite. Continous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
+Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I document my work in detail using Git and am familiar with both GitHub and Bitbucket. I believe that every application should have a comprehensive test suite. Continuous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
 
 I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery).
 
