@@ -58,7 +58,7 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Connect to FacebookAdsAdapter and ConstantContact APIs
 {: .list-plus}
 
-**[FacebookAdsAdapter](https://adsapi.io)** - An API to simply advertising on Facebook
+**[FacebookAdsAdapter](https://adsapi.io)** - An API to simplify advertising on Facebook
 
 - Abstract the Facebook advertising API complexity for use on AdLauncher and Boost
 - Develop with popular gems including carrierwave, clockwork, kaminari, papertrail and puma
