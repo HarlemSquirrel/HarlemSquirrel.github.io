@@ -27,8 +27,8 @@ layout: default_light
 
 <script type="text/javascript">
   function setThemeFromCookie() {
-    var pageContent = document.getElementById("page-content");
-    pageContent.className = isDarkThemeSelected() ? "page-content" : "page-content-light";
+    var pageContent = document.getElementById('page-content')
+    pageContent.className = isDarkThemeSelected() ? 'page-content' : 'page-content-light'
   }
 
   function isDarkThemeSelected() {
@@ -36,9 +36,9 @@ layout: default_light
   }
 
   function togglePageContentLightDark() {
-    var pageContent = document.getElementById("page-content");
+    var pageContent = document.getElementById('page-content')
     var currentClass = pageContent.className;
-    var newClass = pageContent.className == "page-content" ? "page-content-light" : "page-content";
+    var newClass = pageContent.className == 'page-content' ? 'page-content-light' : 'page-content'
     pageContent.className = newClass
 
     document.cookie = 'theme=' + (newClass == 'page-content-light' ? 'light' : 'dark')
