@@ -250,11 +250,16 @@
     margin-bottom: -0.5rem;
   }
   button {
-    color: white;
     background: $darker-glass;
+    border: none;
+    color: white;
     padding: 0.5rem;
     &:hover {
+      background: lighten($darker-glass, 5%);
       cursor: pointer;
+    }
+    &:active {
+      background: lighten($darker-glass, 15%);
     }
   }
 }
