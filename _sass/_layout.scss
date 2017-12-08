@@ -249,4 +249,12 @@
   input {
     margin-bottom: -0.5rem;
   }
+  button {
+    color: white;
+    background: $darker-glass;
+    padding: 0.5rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
