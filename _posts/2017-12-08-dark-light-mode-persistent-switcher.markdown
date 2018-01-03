@@ -73,7 +73,7 @@ function setThemeFromCookie() {
 }
 ```
 
-Finally, we set run this function when the page loads. There is [a nice pure JavaScript way to run something when the page loads][js-run-when-page-loads].
+Finally, we set this function to run when the page loads. There is [a nice pure JavaScript way to run something when the page loads][js-run-when-page-loads].
 
 ```js
 (function() {
