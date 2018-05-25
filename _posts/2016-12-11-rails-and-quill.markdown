@@ -51,8 +51,25 @@ Or it can be robust!
 
 To grab the new formatted content you'll need to use a little JavaScript. If you're using a rails form helper, the easiest way to do this is to assign a unique id to a hidden input field in a form. Then, when the form is submitted, we will place the content from the Quill editor into this field and submit our form.
 
+```erb
+<!-- Form built with Rails form_for helper -->
+<%= form_for :post, remote: true, html: { id: 'some-form' } do |f| %>
+  <div class="form-group">
+    <%= f.hidden_field :content, required: true %>
+    <div id="editor-container" hidden="true"></div>
+    <div id="editor"></div>
+    <%= f.submit %>
+  </div>
+<% end %>
+```
+
 ```js
+// JavaScript to fill in post content on from submission
 var form = document.querySelector('#some-form');
+var quill = new Quill('#editor', {
+  theme: 'snow'
+});
+
 form.onsubmit = function() {
   var postContentInput = document.querySelector('#post-content');
   postContentInput.value = quill.root.innerHTML;
