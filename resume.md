@@ -10,13 +10,27 @@ permalink: /resume
 ### About Me
 
 ![Me at Watkins Glen](https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg){: .resume-pic }
-Since 2016 I have built, deployed, and maintained full stack web applications on Heroku and Jenkins. I document my work in detail using Git and am familiar with both GitHub and Bitbucket. I believe that every application should have a comprehensive test suite. Continuous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
+Since 2016 I have built, deployed, and maintained full stack web applications on Heroku, AWS and on-premise servers. I document my work in detail using Git and am familiar with GitHub, Bitbucket, and GitLab. I believe that every application should have a comprehensive test suite. Continuous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
 
 I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery).
 
-Since the fall of 2016, I have been a Software Engineer at [Constant Contact](https://www.constantcontact.com) working closely with senior engineers, sales teams, and product teams to deploy an ecosystem of three web apps that advertise on Facebook. I translate product team visions into reality through careful feature planning and execution with engineering teams.
+Since the spring of 2017, I have been an IAM Engineer at [Weill Cornell Medicine](https://weill.cornell.edu) working closely with architects, analysts, the service desk, and non-technical teams to deploy a custom ecosystem of identity management solutions. I build internal and public-facing tools to securely provide the right access and information at the right time to the right eyes.
 
 ### Work History
+**Weill Cornell Medicine, New York, NY**
+Identity and Access Management Engineer, May 2017 - Present
+
+- Work closely with technical and non-technical teams
+- Problem solve with operations and department administrators to constantly improve how individuals access a diverse set of systems
+- Maintain and develop new features for a suite of custom identity management applications built with Ruby on Rails, JRuby, and PHP
+- Closely manage and mentor a remote team of junior-level developers
+- Maintain and develop custom code to sync data from a collection of very different systems to our LDAP directory
+- Build comprehensive test suites for existing applications
+- Maintain our custom SimpleSAMLphp IDP implementation
+- Migrated an on-premise Rails app to AWS
+- Spearheaded my initiative to extract common custom CSS and JavaScript to a separate repository and secure public CDN hosting
+{: .list-plus}
+
 **Constant Contact, New York, NY**
 Software Engineer, October 2016 - Present
 
@@ -44,7 +58,7 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Wrote shell scripts and custom OS images to automate Linux desktop deployments
 - Honored by Academy for Teachers for innovation as a computer science educator
 - Commissioned by PERC to create digital resources for the Exploring Computer Science curriculum
-- Commissioned by New Visions to create Google Apps for School Operations screencast tutorials
+- Commissioned by New Visions to create Google Apps for School Operations screen-cast tutorials
 {: .list-plus.print-page-break }
 
 ### Projects
