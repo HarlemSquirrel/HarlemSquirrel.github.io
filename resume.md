@@ -17,6 +17,7 @@ I am proficient in server side tools including Ruby on Rails and shell scripting
 Since the spring of 2017, I have been an IAM Engineer at [Weill Cornell Medicine](https://weill.cornell.edu) working closely with architects, analysts, the service desk, and non-technical teams to deploy a custom ecosystem of identity management solutions. I build internal and public-facing tools to securely provide the right access and information at the right time to the right eyes.
 
 ### Work History
+
 **Weill Cornell Medicine, New York, NY**
 Identity and Access Management Engineer, May 2017 - Present
 
@@ -27,7 +28,7 @@ Identity and Access Management Engineer, May 2017 - Present
 - Maintain and develop custom code to sync data from a collection of very different systems to our LDAP directory
 - Build comprehensive test suites for existing applications
 - Maintain our custom SimpleSAMLphp IDP implementation
-- Migrated an on-premise Rails app to AWS
+- Migrated an on-premise Rails app to AWS as first app in our organization to move to the cloud
 - Spearheaded my initiative to extract common custom CSS and JavaScript to a separate repository and secure public CDN hosting
 {: .list-plus}
 
@@ -71,6 +72,29 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 {: .list-plus.print-page-break }
 
 ### Projects
+
+**[Web Directory](https://directory.weill.cornell.edu)** - Public listing of people, departments, and services
+
+- Upgrade from Rails 4.1 to 5.2
+- Add departments and services to original app with only people
+- Move application from on-premise servers to AWS
+- Improve integration with Java UnboundID LDAP SDK library and JRuby
+- Improve page loading through caching and code refactoring
+- Update styles from Boostrap v3 to v4
+
+**[WCM Styles](https://github.com/wcmc-its/wcm-styles)** - CDN-delivered shared custom assets
+
+- Lead my initiative to extract shared styles and utilize free CDN hosting from [JSDelivr](https://www.jsdelivr.com)
+- Use Webpack to manage external and custom dependencies and package assets
+
+**[Seedlr](https://seedlr.com)** - Share positive thoughts.
+
+- Coordinate with remote team across geographic divide with Trello, WhatsApp, Git, and Bitbucket
+- Build out new features including data models and UI from an InVision app
+- Integrate with payment system and mail marketing APIs
+- Use JQuery and custom JavaScript to enhance front-end with asynchronous AJAX requests
+{: .list-plus}
+
 **[AdLauncher](https://adlauncher.io)** - Making Facebook advertising easy
 
 - Coordinate with a diverse team of engineers, product, and sales personnel
@@ -92,13 +116,6 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Maintain legacy JRuby Rails 4.1 app with Ruby 1.9.3
 - Extends ConstantContact with Facebook advertising
 - Deploy remotely with Jenkins and JRuby
-{: .list-plus}
-
-**[Seedlr](https://seedlr.com)** - Share positive thoughts.
-
-- Coordinate with remote team across geographic divide with Trello, WhatsApp, Git, and Bitbucket
-- Build out new features including data models and UI from an InVision app
-- Use JQuery and custom JavaScript to enhance front-end with asynchronous AJAX requests
 {: .list-plus}
 
 ### Open Source Contributions
