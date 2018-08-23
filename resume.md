@@ -31,8 +31,17 @@ Identity and Access Management Engineer, May 2017 - Present
 - Spearheaded my initiative to extract common custom CSS and JavaScript to a separate repository and secure public CDN hosting
 {: .list-plus}
 
+**Code Climate, New York, NY**
+Software Engineer, March 2017 - May 2017
+
+- Work closely with the sales and product teams to update marketing pages
+- Update [Middleman](https://github.com/middleman/middleman) app with custom modules
+- Move app from Rails Asset Pipeline to Webpack
+- Build pages based on designs using HTML, SCSS, and JavaScript
+{: .list-plus}
+
 **Constant Contact, New York, NY**
-Software Engineer, October 2016 - Present
+Software Engineer, October 2016 - March 2017
 
 - Work on a small team of engineers that works closely with the sales and product teams
 - Engage in agile development including team feature planning with Jira
