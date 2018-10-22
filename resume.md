@@ -69,7 +69,7 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Honored by Academy for Teachers for innovation as a computer science educator
 - Commissioned by PERC to create digital resources for the Exploring Computer Science curriculum
 - Commissioned by New Visions to create Google Apps for School Operations screen-cast tutorials
-{: .list-plus.print-page-break }
+{: .list-plus }
 
 ### Projects
 
