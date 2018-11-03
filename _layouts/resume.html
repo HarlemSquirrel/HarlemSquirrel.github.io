@@ -2,7 +2,6 @@
 layout: default_light
 ---
 <article class="resume">
-
   <header class="post-header">
     <h1 class="post-title">Kevin McCormack</h1>
     <ul class="list-horizontal">
@@ -13,38 +12,10 @@ layout: default_light
           </svg>
         </a>
       </li>
-      <li>
-        <button type="button" name="dark_light" onclick="togglePageContentLightDark()" title="Toggle dark/light mode">🌛</button>
-      </li>
     </ul>
   </header>
 
   <div class="post-content">
     {{ content }}
   </div>
-
 </article>
-
-<script type="text/javascript">
-  function setThemeFromCookie() {
-    var pageContent = document.getElementById('page-content')
-    pageContent.className = isDarkThemeSelected() ? 'page-content' : 'page-content-light'
-  }
-
-  function isDarkThemeSelected() {
-    return document.cookie.match(/theme=dark/i) != null
-  }
-
-  function togglePageContentLightDark() {
-    var pageContent = document.getElementById('page-content')
-    var currentClass = pageContent.className;
-    var newClass = pageContent.className == 'page-content' ? 'page-content-light' : 'page-content'
-    pageContent.className = newClass
-
-    document.cookie = 'theme=' + (newClass == 'page-content-light' ? 'light' : 'dark')
-  }
-
-  (function() {
-    setThemeFromCookie()
-  })();
-</script>

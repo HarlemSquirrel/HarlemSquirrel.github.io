@@ -1,7 +1,5 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
     <h2 class="footer-heading">{{ site.title }}</h2>
 
     <div class="footer-col-wrapper">
@@ -31,7 +29,29 @@
         <p>{{ site.description }}</p>
       </div>
     </div>
-
   </div>
-
 </footer>
+
+<script type="text/javascript">
+  function setThemeFromCookie() {
+    var pageContent = document.getElementById('page-content')
+    pageContent.className = isDarkThemeSelected() ? 'page-content' : 'page-content-light'
+  }
+
+  function isDarkThemeSelected() {
+    return document.cookie.match(/theme=dark/i) != null
+  }
+
+  function togglePageContentLightDark() {
+    var pageContent = document.getElementById('page-content')
+    var currentClass = pageContent.className;
+    var newClass = pageContent.className == 'page-content' ? 'page-content-light' : 'page-content'
+    pageContent.className = newClass
+
+    document.cookie = 'theme=' + (newClass == 'page-content-light' ? 'light' : 'dark')
+  }
+
+  (function() {
+    setThemeFromCookie()
+  })();
+</script>

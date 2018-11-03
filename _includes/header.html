@@ -1,7 +1,5 @@
 <header class="site-header">
-
   <div class="wrapper">
-
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
@@ -22,8 +20,11 @@
             <button type="submit" name="button">🍻 Beer me</button>
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
           </form>
-
         </div>
+
+        <button class="page-link" type="button" name="dark_light" onclick="togglePageContentLightDark()" title="Toggle dark/light mode">
+          🌛
+        </button>
 
         {% for my_page in site.pages %}
           {% if my_page.title %}
@@ -33,7 +34,5 @@
         <!-- <a class="page-link" href="https://harlemsquirrel.github.io/kevin_mccormack/">Resume</a> -->
       </div>
     </nav>
-
   </div>
-
 </header>
