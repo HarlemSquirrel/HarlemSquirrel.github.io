@@ -21,6 +21,7 @@ $brand-color:      #33cc33;
 
 $dark-glass:       rgba(#000, 0.5);
 $darker-glass:     rgba(#000,0.8);
+$frosted-glass:    rgba(240,240,240,0.90);
 
 $grey-color:       #e6e6e6;
 $grey-color-light: lighten($grey-color, 40%);
@@ -31,6 +32,14 @@ $content-width:    1200px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+// Light/Dark theme slider
+$switch-bg-color: rgba($brand-color, 0.8);
+$slider-height: 1.5rem;
+$slider-width: 2.5rem;
+$slider-text-color: #333;
+$slider-text-color-checked: #ddd;
+$switch-width: 4.5rem;
 
 
 

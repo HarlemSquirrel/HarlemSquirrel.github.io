@@ -22,9 +22,13 @@
           </form>
         </div>
 
-        <button class="page-link" type="button" name="dark_light" onclick="togglePageContentLightDark()" title="Toggle dark/light mode">
-          🌛
-        </button>
+        <div class="d-inline-block page-link">
+
+          <label class="switch" for="lightDarkSwitchInput" title="Toggle dark/light mode">
+            <input id="lightDarkSwitchInput" name="dark_light" type="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
 
         {% for my_page in site.pages %}
           {% if my_page.title %}

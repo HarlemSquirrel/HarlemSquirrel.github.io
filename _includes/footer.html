@@ -42,6 +42,10 @@
     return document.cookie.match(/theme=dark/i) != null
   }
 
+  function setLightDarkSwitchState() {
+    document.getElementById('lightDarkSwitchInput').checked = isDarkThemeSelected()
+  }
+
   function togglePageContentLightDark() {
     var pageContent = document.getElementById('page-content')
     var currentClass = pageContent.className;
@@ -53,5 +57,7 @@
 
   (function() {
     setThemeFromCookie()
+    setLightDarkSwitchState()
+    document.getElementById('lightDarkSwitchInput').onchange=togglePageContentLightDark
   })();
 </script>
