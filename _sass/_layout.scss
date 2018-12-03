@@ -183,13 +183,19 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+      border-bottom: 1px solid #ccc;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+}
+
+.page-content-light {
+  .post-meta {
+    color: #222;
+  }
 }
 
 .post-link {
