@@ -5,7 +5,7 @@ date:   2018-06-1 05:00:00 -0500
 categories: rails digitalocean
 ---
 
-After hosting a Rails app on Heroku for quite some time I was looking for a way to have some more control and get more familar with [DigitalOcean]. Their $5 droplet is quite nice for getting started with 1 GB of RAM, 25 GB of storage, and 1 TB of transfer right now.
+After hosting a Rails app on Heroku for quite some time I was looking for a way to have some more control and get more familiar with [DigitalOcean]. Their $5 droplet is quite nice for getting started with 1 GB of RAM, 25 GB of storage, and 1 TB of transfer right now.
 
 I could not find a single guide on setting things up the way I needed so I thought this might help others who are looking into a similar stack.
 
@@ -13,7 +13,7 @@ This is how I got it done.
 
 ## Set up a new droplet
 
-Let's create a new droplet for our application. We create an account and/or log in and naviagte to our [DigitalOcean dashboard].
+Let's create a new droplet for our application. We create an account and/or log in and navigate to our [DigitalOcean dashboard].
 
 ### Create a new Ubuntu 16.04 droplet with attached block storage and SSH ability
 
@@ -68,7 +68,7 @@ ssh-copy-id -i /path/to/id_rsa_file.pub do-app-name
 
 ### Disable SSH password auth
 
-Now we no longer need password auth so let's diable that for better security. Back on the server as root, edit the `sshd_config` file one last time.
+Now we no longer need password auth so let's disable that for better security. Back on the server as root, edit the `sshd_config` file one last time.
 
 ```sh
 vim /etc/ssh/sshd_config
