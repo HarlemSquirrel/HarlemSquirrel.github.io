@@ -1,15 +1,15 @@
 /**
  * Syntax highlighting styles
  */
-.highlight {
+pre.highlight {
     background: #111;
     background: rgba(0,0,0,0.8);
     @extend %vertical-rhythm;
 
-    .highlighter-rouge & {
-      background: #110;
-      background: rgba(0,0,0,0.8);
-    }
+    // .highlighter-rouge & {
+    //   background: #110;
+    //   background: rgba(0,0,0,0.8);
+    // }
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
