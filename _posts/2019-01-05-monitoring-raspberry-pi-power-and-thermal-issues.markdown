@@ -122,7 +122,7 @@ throttled_binary = bin(int(throttled_output.split('=')[1], 0))
 warnings = 0
 for position, message in MESSAGES.iteritems():
     # Check for the binary digits to be "on" for each warning message
-    if len(throttled_binary) > position and [0 - position - 1] == '1':
+    if len(throttled_binary) > position and throttled_binary[0 - position - 1] == '1':
         print(message)
         warnings += 1
 
