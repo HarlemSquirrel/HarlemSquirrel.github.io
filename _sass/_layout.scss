@@ -258,14 +258,16 @@
   button {
     background: $darker-glass;
     border: none;
-    color: white;
+    color: #eee;
     padding: 0.5rem;
     &:hover {
-      background: lighten($darker-glass, 5%);
+      background: lighten($darker-glass, 10%);
+      box-shadow: 0 0 5px 5px #f8a522;
       cursor: pointer;
     }
     &:active {
-      background: lighten($darker-glass, 15%);
+      background: darken($darker-glass, 5%);
+      color: white;
     }
   }
 }
