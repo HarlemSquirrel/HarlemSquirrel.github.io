@@ -19,7 +19,7 @@ github_username:  HarlemSquirrel
 markdown: kramdown
 
 # Plugins
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Outputting
 paginate: 10
