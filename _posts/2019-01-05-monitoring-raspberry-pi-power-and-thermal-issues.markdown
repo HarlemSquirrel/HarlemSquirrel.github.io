@@ -9,7 +9,7 @@ The Raspberry Pi is an awesome, fun, and (mostly) open source mini-computer for 
 
 This byte-sized guy runs on just a few volts typically delivered through micro USB. The [current (mA) requirements] depend on what is connected but it can be tempting to grab an old smart phone power brick and cable or order a cheap one online. However, if our Pi does not get the juice it needs we can run into all sorts of problems.
 
-Raspberry Pis can be overclocked and are generally passively cooled which can result in high temperatures under load. When temperatures get too the firmware should throttle back to prevent damage.
+A Raspberry Pi can be overclocked and is generally passively cooled which can result in high temperatures under load. When temperatures get too high the firmware should throttle back to prevent damage.
 
 Luckily we have some tools built into [Raspbian], the de facto Linux distribution for Raspberry Pi, to monitor for issues related to power and temperature. Enter [`vcgencmd`]. With this command, we can get information on clock frequency, voltage, temperature, and more.
 
