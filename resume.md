@@ -16,6 +16,22 @@ I am proficient in server side tools including Ruby on Rails and shell scripting
 
 Since the spring of 2017, I have been an IAM Engineer at [Weill Cornell Medicine](https://weill.cornell.edu) working closely with architects, analysts, the service desk, and non-technical teams to deploy a custom ecosystem of identity management solutions. I build internal and public-facing tools to securely provide the right access and information at the right time to the right eyes.
 
+### Technologies
+
+- Automated testing (CircleCI, Selenium)
+- Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, Yamllint)
+- Docker (Compose)
+- JavaScript (Angular v1, Electron, JQuery, Quill, Yarn)
+- LDAP (ActiveLDAP, OpenDJ, OpenLDAP, PingDirectory)
+- Linux (ArchLinux, CentOS, Fedora, RHEL, Ubuntu)
+- Load testing (ApacheBench, Siege)
+- OmniAuth
+- PHP (SimpleSAMLphp)
+- Python (Flask, ldap3)
+- Ruby (Capybara, Devise, JRuby, Rails, RSpec, RVM, Sinatra, Splunk SDK, WebMock)
+- SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
+- Splunk (splunk-sdk-ruby)
+
 ### Work History
 
 **Weill Cornell Medicine, New York, NY**
