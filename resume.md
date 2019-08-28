@@ -10,9 +10,11 @@ permalink: /resume
 ### About Me
 
 ![Me at Watkins Glen](https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg){: .resume-pic }
-Since 2016 I have built, deployed, and maintained full stack web applications on Heroku, AWS and on-premise servers. I document my work in detail using Git and am familiar with GitHub, Bitbucket, and GitLab. I believe that every application should have a comprehensive test suite. Continuous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
+Since 2016 I have built, deployed, and maintained full stack web applications on Heroku, AWS, Digital Ocean, and on-premise servers. I document my work in detail, use Git for version control, and am familiar with GitHub, Bitbucket, and GitLab. I believe that every application should have a comprehensive test suite. Continuous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
 
-I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery).
+I am a big fan of open source software. I have a number of my own projects on GitHub and contribute to other projects when I can such as [home-assistant](https://www.home-assistant.io/), [teams-for-linux](https://github.com/IsmaelMartinez/teams-for-linux/), and [RVM](https://rvm.io/).
+
+I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery). I am always looking to learn new languages and frameworks. I have been working on Python lately.
 
 Since the spring of 2017, I have been an IAM Engineer at [Weill Cornell Medicine](https://weill.cornell.edu) working closely with architects, analysts, the service desk, and non-technical teams to deploy a custom ecosystem of identity management solutions. I build internal and public-facing tools to securely provide the right access and information at the right time to the right eyes.
 
@@ -20,16 +22,21 @@ Since the spring of 2017, I have been an IAM Engineer at [Weill Cornell Medicine
 
 - Automated testing (CircleCI, Selenium)
 - Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, Yamllint)
+- Cloud (AWS Code Pipeline, AWS Elastic Beanstalk, AWS S3, Digital Ocean)
+- CSS (SCSS)
 - Docker (Compose)
+- HTML
 - JavaScript (Angular v1, Electron, JQuery, Quill, Yarn)
 - LDAP (ActiveLDAP, OpenDJ, OpenLDAP, PingDirectory)
 - Linux (ArchLinux, CentOS, Fedora, RHEL, Ubuntu)
 - Load testing (ApacheBench, Siege)
+- Monitoring (New Relic, Uptime Robot)
 - OmniAuth
 - PHP (SimpleSAMLphp)
 - Python (Flask, ldap3)
-- Ruby (Capybara, Devise, JRuby, Rails, RSpec, RVM, Sinatra, Splunk SDK, WebMock)
+- Ruby (Capybara, Devise, Haml, JRuby, Rails, RSpec, RVM, Sinatra, Splunk SDK, WebMock)
 - SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
+- Shell scripting
 - Splunk (splunk-sdk-ruby)
 
 ### Work History
@@ -40,7 +47,8 @@ Identity and Access Management Engineer, May 2017 - Present
 - Work closely with technical and non-technical teams
 - Problem solve with operations and department administrators to constantly improve how individuals access a diverse set of systems
 - Maintain and develop new features for a suite of custom identity management applications built with Ruby on Rails, JRuby, and PHP
-- Closely manage and mentor a remote team of junior-level developers
+- Closely manage and mentor a remote team of off-shore developers
+- Closely mentor junior developers
 - Maintain and develop custom code to sync data from a collection of very different systems to our LDAP directory
 - Build comprehensive test suites for existing applications
 - Maintain our custom SimpleSAMLphp IDP implementation
