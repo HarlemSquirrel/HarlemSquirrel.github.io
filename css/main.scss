@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -56,7 +56,8 @@ $switch-width: 4.5rem;
   }
 }
 
-
+// Import the font from Google.
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
