@@ -56,6 +56,7 @@ ul.list-plus {
     text-shadow: none !important;
     filter: none !important;
     -ms-filter: none !important;
+    font-family: 'Merriweather', serif;
     font-size: 12px;
   }
 
@@ -109,6 +110,10 @@ ul.list-plus {
     margin-bottom: 0.5rem;
   }
   h2, h3, article {
+    page-break-after: avoid;
+  }
+  h3 {
+    margin-top: 1.5rem;
     page-break-after: avoid;
   }
 
