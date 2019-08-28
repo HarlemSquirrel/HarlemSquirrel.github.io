@@ -16,12 +16,12 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 
 I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery). I am always looking to learn new languages and frameworks. I have been working on Python lately.
 
-Since the spring of 2017, I have been an IAM Engineer at [Weill Cornell Medicine](https://weill.cornell.edu) working closely with architects, analysts, the service desk, and non-technical teams to deploy a custom ecosystem of identity management solutions. I build internal and public-facing tools to securely provide the right access and information at the right time to the right eyes.
+Since the spring of 2017, I have been a software developer at [Weill Cornell Medicine](https://weill.cornell.edu) working closely with architects, analysts, the service desk, and non-technical teams to deploy a custom ecosystem of identity management solutions. More recently I have been stepping into the role of solutions architect in building internal and public-facing tools to securely provide the right access and information at the right time to the right eyes.
 
 ### Technologies
 
 - Automated testing (CircleCI, Selenium)
-- Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, Yamllint)
+- Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, YAMLlint)
 - Cloud (AWS Code Pipeline, AWS Elastic Beanstalk, AWS S3, Digital Ocean)
 - CSS (SCSS)
 - Docker (Compose)
@@ -92,7 +92,7 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Wrote shell scripts and custom OS images to automate Linux desktop deployments
 - Honored by Academy for Teachers for innovation as a computer science educator
 - Commissioned by PERC to create digital resources for the Exploring Computer Science curriculum
-- Commissioned by New Visions to create Google Apps for School Operations screen-cast tutorials
+- Commissioned by New Visions for Public Schools to create Google Apps for School Operations screen-cast tutorials
 {: .list-plus }
 
 ### Projects
