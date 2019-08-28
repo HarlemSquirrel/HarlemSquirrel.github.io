@@ -16,7 +16,7 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 
 I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery). I am always looking to learn new languages and frameworks. I have been working on Python lately.
 
-Since the spring of 2017, I have been a software developer at [Weill Cornell Medicine](https://weill.cornell.edu) working closely with architects, analysts, the service desk, and non-technical teams to deploy a custom ecosystem of identity management solutions. More recently I have been stepping into the role of solutions architect in building internal and public-facing tools to securely provide the right access and information at the right time to the right eyes.
+Since the spring of 2017, I have been a software engineer at [Weill Cornell Medicine](https://weill.cornell.edu) working closely with architects, analysts, the service desk, and non-technical teams to deploy a custom ecosystem of identity management solutions. More recently I have been stepping into the role of solutions architect in building internal and public-facing ecosystems to securely provide the right access and information at the right time to the right eyes.
 
 ### Technologies
 
