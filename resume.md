@@ -42,7 +42,7 @@ Since the spring of 2017, I have been a software developer at [Weill Cornell Med
 ### Work History
 
 **Weill Cornell Medicine, New York, NY**
-Identity and Access Management Engineer, May 2017 - Present
+Identity and Access Software Engineer, May 2017 - Present
 
 - Work closely with technical and non-technical teams
 - Problem solve with operations and department administrators to constantly improve how individuals access a diverse set of systems
