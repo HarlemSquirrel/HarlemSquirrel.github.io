@@ -20,13 +20,13 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 ### Technologies
 
-- Automated testing (CircleCI, Selenium)
+- Cloud (AWS Elastic Beanstalk, AWS S3, Digital Ocean)
 - Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, YAMLlint)
-- Cloud (AWS Code Pipeline, AWS Elastic Beanstalk, AWS S3, Digital Ocean)
+- Development operations (Ansible, AWS Code Pipeline, Capistrano, CircleCI, Travis CI, Selenium)
 - CSS (SCSS)
 - Docker (Compose)
 - HTML
-- JavaScript (Angular v1, Electron, JQuery, Quill, Yarn)
+- JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Quill, typeahead.js, Webpack, Yarn)
 - LDAP (ActiveLDAP, OpenDJ, OpenLDAP, PingDirectory)
 - Linux (ArchLinux, CentOS, Fedora, RHEL, Ubuntu)
 - Load testing (ApacheBench, Siege)
@@ -34,10 +34,12 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 - OmniAuth
 - PHP (SimpleSAMLphp)
 - Python (Flask, ldap3)
-- Ruby (Capybara, Devise, Haml, JRuby, Rails, RSpec, RVM, Sinatra, Splunk SDK, WebMock)
+- Ruby (Active Admin, Capybara, Devise, Haml, JRuby, Rails, RSpec, RVM, Selenium, Sinatra, Splunk SDK, vcr, WebMock)
 - SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
 - Shell scripting
 - Splunk (splunk-sdk-ruby)
+- Version control (Bitbucket GitLab, GitHub)
+{: .list-plus.print-page-break}
 
 ### Work History
 
@@ -93,7 +95,7 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Honored by Academy for Teachers for innovation as a computer science educator
 - Commissioned by PERC to create digital resources for the Exploring Computer Science curriculum
 - Commissioned by New Visions for Public Schools to create Google Apps for School Operations screen-cast tutorials
-{: .list-plus }
+{: .list-plus.print-page-break}
 
 ### Projects
 
