@@ -34,7 +34,7 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 - OmniAuth
 - PHP (SimpleSAMLphp)
 - Python (Flask, ldap3)
-- Ruby (Active Admin, Capybara, Devise, Haml, JRuby, Rails, RSpec, RVM, Selenium, Sinatra, Splunk SDK, vcr, WebMock)
+- Ruby (Active Admin, Capybara, Devise, Haml, JRuby, Rails, RSpec, RVM, Selenium, Sinatra, WebMock)
 - SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
 - Shell scripting
 - Splunk (splunk-sdk-ruby)
@@ -107,11 +107,13 @@ Teacher and Solutions Architect, Aug 2008 - September 2016
 - Improve integration with Java UnboundID LDAP SDK library and JRuby
 - Improve page loading through caching and code refactoring
 - Update styles from Boostrap v3 to v4
+{: .list-plus}
 
 **[WCM Styles](https://github.com/wcmc-its/wcm-styles)** - CDN-delivered shared custom assets
 
 - Lead my initiative to extract shared styles and utilize free CDN hosting from [JSDelivr](https://www.jsdelivr.com)
 - Use Webpack to manage external and custom dependencies and package assets
+{: .list-plus}
 
 **[Seedlr](https://seedlr.com)** - Share positive thoughts.
 
