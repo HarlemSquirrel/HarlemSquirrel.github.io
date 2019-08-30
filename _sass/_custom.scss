@@ -18,6 +18,41 @@
   width: calc(100% - 13rem);
 }
 
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+      border-top-left-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+
+}
+
+.btn-clear {
+  background-color: transparent;
+  color: darken($brand-color, 25%);
+
+  &:hover {
+    background-color: rgba(127,127,127, 0.25);
+  }
+}
+
 @media (max-width: 600px) {
   .site-title {
     font-size: 1.2rem;

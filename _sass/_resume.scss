@@ -29,7 +29,6 @@ header {
     td {
       padding-right: 1rem;
     }
-    // width: 80%;
   }
   img.resume-pic {
     box-shadow: 10px 10px 5px 0px #333;
@@ -45,11 +44,18 @@ ul.list-plus {
 
   li:before {
     content: '+';
+    display:inline-block;
+    margin-left: -1rem;
     padding-right: 0.5rem;
+  }
+
+  li {
+    margin-left: 1rem;
+    padding-left: 0.5rem;
   }
 }
 
-@media print {
+@mixin print_layout {
   * {
     background: transparent !important;
     color: black !important;
@@ -57,7 +63,7 @@ ul.list-plus {
     filter: none !important;
     -ms-filter: none !important;
     font-family: 'Merriweather', serif;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   header, h1, .post-content {
@@ -72,10 +78,6 @@ ul.list-plus {
     text-decoration: none;
   }
 
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
   .site-header, button, footer, img, ins, svg {
     display: none;
   }
@@ -84,7 +86,7 @@ ul.list-plus {
     content: " (" attr(title) ")";
   }
 
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after, a[href^="tel:"]:after, a[href^="mailto:"]:after {
+  a:after, a[href^="javascript:"]:after, a[href^="#"]:after, a[href^="tel:"]:after, a[href^="mailto:"]:after {
     content: "";
   }
   pre, blockquote {
@@ -109,6 +111,9 @@ ul.list-plus {
     widows: 3;
     margin-bottom: 0.5rem;
   }
+  h1 {
+    font-size: 2rem;
+  }
   h2, h3, article {
     page-break-after: avoid;
   }
@@ -119,5 +124,26 @@ ul.list-plus {
 
   .print-page-break {
     page-break-after: always;
+  }
+
+  .btn {
+    display: none;
+  }
+}
+
+.pdf {
+  @include print_layout;
+}
+
+@media print {
+  body {
+    @include print_layout;
+
+    a[href]:after {
+      content: " (" attr(href) ")";
+    }
+    a:after, a[href^="javascript:"]:after, a[href^="#"]:after, a[href^="tel:"]:after, a[href^="mailto:"]:after {
+      content: "";
+    }
   }
 }

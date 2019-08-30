@@ -6,11 +6,14 @@ layout: default_light
     <h1 class="post-title">Kevin McCormack</h1>
     <ul class="list-horizontal">
       <li>
-        <a href="#" onclick="window.print();return false;" title="Print">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
-            <path d="M18 8h-1V4H7v4H3v6c0 1.7 1.3 3 3 3h1v3h10v-3h4v-6c0-1.7-1.3-3-3-3zM8 5h8v3H8V5zm8 14H8v-6h8v6z"/>
-          </svg>
-        </a>
+        <button class="btn btn-clear" id="downloadPDF" type="button" name="button" title="Save as PDF">
+          <i class="material-icons">picture_as_pdf</i>
+        </button>
+      </li>
+      <li>
+        <button class="btn btn-clear" onclick="window.print();return false;" type="button" name="button" title="Print">
+          <i class="material-icons">local_printshop</i>
+        </button>
       </li>
     </ul>
   </header>
@@ -18,4 +21,7 @@ layout: default_light
   <div class="post-content">
     {{ content }}
   </div>
+
+  <script type="text/javascript" src="javascript/html2pdf.bundle.min.js"></script>
+  <script type="text/javascript" src="javascript/resume.js"></script>
 </article>
