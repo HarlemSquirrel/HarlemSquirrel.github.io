@@ -156,3 +156,20 @@ input:checked + .slider:before {
   -ms-transform: translateX($transform-distance);
   transform: translateX($transform-distance);
 }
+
+.post-content {
+  table {
+    border-collapse: collapse;
+    margin: 1rem 0;
+    width: 100%;
+
+    td, th {
+      padding: 0.3rem;
+      text-align: left;
+    }
+
+    td {
+      border-top: 1px solid #999;
+    }
+  }
+}
