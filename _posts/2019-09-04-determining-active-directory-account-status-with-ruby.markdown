@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Determining Active Directory Accounts status with Ruby
+title:  Determining Active Directory Account Status with Ruby
 date:   2019-09-03 08:00:00 -0500
 categories: ruby
 ---
