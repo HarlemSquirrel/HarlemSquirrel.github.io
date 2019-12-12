@@ -5,6 +5,8 @@ date:   2019-01-05 05:00:00 -0500
 categories: shell
 ---
 
+*Update 2019-12-11*
+
 The Raspberry Pi is an awesome, fun, and (mostly) open source mini-computer for tinkerers. It runs [Linux], [FreeBSD], and recently even [Windows 10 IoT].
 
 This byte-sized guy runs on just a few volts typically delivered through micro USB. The [current (mA) requirements] depend on what is connected but it can be tempting to grab an old smart phone power brick and cable or order a cheap one online. However, if our Pi does not get the juice it needs we can run into all sorts of problems.
@@ -31,25 +33,30 @@ throttled=0x50000
 
 But what in the world does `0x50000` mean? After a bit of Internet scouring I came across a helpful [Raspberry Pi forum post] with "the bits in this number represent:"
 
-```
-0: under-voltage
-1: arm frequency capped
-2: currently throttled
-16: under-voltage has occurred
-17: arm frequency capped has occurred
-18: throttling has occurred
-```
+
+| Bit | Meaning |
+|:---:|---------|
+| 0   | Under-voltage detected |
+| 1   | Arm frequency capped |
+| 2   | Currently throttled |
+| 3   | Soft temperature limit active |
+| 16  | Under-voltage has occurred |
+| 17  | Arm frequency capped has occurred |
+| 18  | Throttling has occurred |
+| 19  | Soft temperature limit has occurred |
 
 I was still a bit cloudy as to what was going on here so I searched some more and found this [Raspberry Pi firmware commit comment] on GitHub:
 
 ```
-1110000000000000010
-|||             |||_ under-voltage
-|||             ||_ currently throttled
-|||             |_ arm frequency capped
-|||_ under-voltage has occurred since last reboot
-||_ throttling has occurred since last reboot
-|_ arm frequency capped has occurred since last reboot
+01110000000000000010
+||||            ||||_ Under-voltage detected
+||||            |||_ Arm frequency capped
+||||            ||_ Currently throttled
+||||            |_ Soft temperature limit active
+||||_ Under-voltage has occurred since last reboot
+|||_ Arm frequency capped has occurred
+||_ Throttling has occurred
+|_ Soft temperature limit has occurred
 ```
 
 I see now that the previous post was referencing the digit starting with 0 from the right. In order to make sense of the value we got above we need to convert `0x50000` from hexadecimal to binary. [Python] can do this for us.
@@ -85,14 +92,16 @@ print(throttled_binary)
 Now let's line this with up with our chart.
 
 ```
-0b1010000000000000000
-  1110000000000000010
-  |||             |||_ under-voltage
-  |||             ||_ currently throttled
-  |||             |_ arm frequency capped
-  |||_ under-voltage has occurred since last reboot!!
-  ||_ throttling has occurred since last reboot
-  |_ arm frequency capped has occurred since last reboot!!
+0b01010000000000000000
+  01110000000000000010
+  ||||            ||||_ Under-voltage detected
+  ||||            |||_ Arm frequency capped
+  ||||            ||_ Currently throttled
+  ||||            |_ Soft temperature limit active
+  ||||_ Under-voltage has occurred since last reboot
+  |||_ Arm frequency capped has occurred
+  ||_ Throttling has occurred
+  |_ Soft temperature limit has occurred
 ```
 
 The double bang indicates which flags we've found. It looks like our Pi was at some point getting less voltage than it should and the ARM frequency was throttled since the last reboot. This means we likely need a better power supply.
@@ -109,9 +118,11 @@ MESSAGES = {
     0: 'Under-voltage!',
     1: 'ARM frequency capped!',
     2: 'Currently throttled!',
+    3: 'Soft temperature limit active',
     16: 'Under-voltage has occurred since last reboot.',
     17: 'Throttling has occurred since last reboot.',
-    18: 'ARM frequency capped has occurred since last reboot.'
+    18: 'ARM frequency capped has occurred since last reboot.',
+    19: 'Soft temperature limit has occurred'
 }
 
 print("Checking for throttling issues since last reboot...")
