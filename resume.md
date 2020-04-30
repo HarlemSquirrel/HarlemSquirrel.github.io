@@ -43,9 +43,10 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 ### Work History
 
-**Weill Cornell Medicine, New York, NY**\
-Senior Software Engineer, Identity and Access, Feb 2020 - Present\
-Identity and Access Software Engineer, May 2017 - Feb 2020
+#### Weill Cornell Medicine, New York, NY
+
+**Senior Software Engineer, Identity and Access**, Feb 2020 - Present  
+**Identity and Access Software Engineer**, May 2017 - Feb 2020
 
 - Work closely with technical and non-technical teams
 - Problem solve with operations and department administrators to constantly improve how individuals access a diverse set of systems
@@ -60,8 +61,9 @@ Identity and Access Software Engineer, May 2017 - Feb 2020
 - Spearheaded my initiative to extract common custom CSS and JavaScript to a separate repository and secure public CDN hosting
 {: .list-plus}
 
-**Code Climate, New York, NY**\
-Software Engineer, March 2017 - May 2017
+#### Code Climate, New York, NY
+
+**Software Engineer**, March 2017 - May 2017
 
 - Work closely with the sales and product teams to update marketing pages
 - Update [Middleman](https://github.com/middleman/middleman) app with custom modules
@@ -69,8 +71,9 @@ Software Engineer, March 2017 - May 2017
 - Build pages based on designs using HTML, SCSS, and JavaScript
 {: .list-plus}
 
-**Constant Contact, New York, NY**\
-Software Engineer, October 2016 - March 2017
+#### Constant Contact, New York, NY
+
+**Software Engineer**, October 2016 - March 2017
 
 - Work on a small team of engineers that works closely with the sales and product teams
 - Engage in agile development including team feature planning with Jira
@@ -80,7 +83,8 @@ Software Engineer, October 2016 - March 2017
 - Deploy, monitor and debug production apps through Heroku, Honeybadger, Jenkins, New Relic, and Splunk
 {: .list-plus}
 
-**Flatiron School, New York, NY**\
+#### Flatiron School, New York, NY
+
 Online Instructor, May 2016 - October 2016
 
 - Assisted students learning full stack web development with Ruby on Rails and JavaScript
@@ -88,8 +92,9 @@ Online Instructor, May 2016 - October 2016
 - Triaged issues with the Learn integrated development environment
 {: .list-plus}
 
-**East Bronx Academy, Bronx, NY**\
-Teacher and Solutions Architect, Aug 2008 - September 2016
+#### East Bronx Academy, Bronx, NY
+
+**Teacher and Solutions Architect**, Aug 2008 - September 2016
 
 - Designed and taught year-long curriculum for computer science and music in grades 6-12
 - Administered Google Apps for Education account with over 800 active users
@@ -171,3 +176,4 @@ MS: Instructional Media
 **City College of New York - New York, NY - 2008**
 
 BFA: Jazz Performance and Education
+
