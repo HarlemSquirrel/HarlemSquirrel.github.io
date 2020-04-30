@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume
 ---
 
-[917.209.0326](tel:+1-917-209-0326) | [HarlemSquirrel@gmail.com](mailto:harlemsquirrel@gmail.com)
+[917.209.0326](tel:+1-917-209-0326) | [kevin@mccormack.tech](mailto:kevin@mccormack.tech)
 {: .contact-table }
 
 ### About Me
@@ -44,15 +44,17 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 ### Work History
 
 **Weill Cornell Medicine, New York, NY**
-Identity and Access Software Engineer, May 2017 - Present
+Senior Software Engineer, Identity and Access, Feb 2020 - Present
+Identity and Access Software Engineer, May 2017 - Feb 2020
 
 - Work closely with technical and non-technical teams
 - Problem solve with operations and department administrators to constantly improve how individuals access a diverse set of systems
-- Maintain and develop new features for a suite of custom identity management applications built with Ruby on Rails, JRuby, and PHP
+- Design and develop new features for a suite of custom identity management applications built with Ruby on Rails, JRuby, and PHP
 - Closely manage and mentor a remote team of off-shore developers
 - Closely mentor junior developers
-- Maintain and develop custom code to sync data from a collection of very different systems to our LDAP directory
+- Design and develop complex data synchronization and processing between a wide range of databases, systems and services
 - Build comprehensive test suites for existing applications
+- Streamline deployments with Ansible and Capistrano
 - Maintain our custom SimpleSAMLphp IDP implementation
 - Migrated an on-premise Rails app to AWS as first app in our organization to move to the cloud
 - Spearheaded my initiative to extract common custom CSS and JavaScript to a separate repository and secure public CDN hosting
