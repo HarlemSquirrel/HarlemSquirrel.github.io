@@ -81,7 +81,7 @@ Finally, we set this function to run when the page loads. There is [a nice pure 
 })();
 ```
 
-And there we have it! Select your prefered theme and reload the page to see it persist! You can see this in action on my [resume page][resume].
+And there we have it! Select your preferred theme and reload the page to see it persist! You can see this in action on my [resume page][resume].
 
 
 [dark-light-mode-switcher]: /css/javascript/2017/01/31/dark-light-mode-switcher.html

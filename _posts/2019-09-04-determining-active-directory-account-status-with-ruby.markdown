@@ -5,7 +5,7 @@ date:   2019-09-03 08:00:00 -0500
 categories: ruby
 ---
 
-In Active Directory, the status on accounts is controlled by the `userAccountControl` attribute. This attribute has [hexidecimal](https://stackoverflow.com/questions/8186965/what-do-numbers-using-0x-notation-mean) values, allowing it to be in many states and offer many different control options with very little storage impact.
+In Active Directory, the status on accounts is controlled by the `userAccountControl` attribute. This attribute has [hexadecimal](https://stackoverflow.com/questions/8186965/what-do-numbers-using-0x-notation-mean) values, allowing it to be in many states and offer many different control options with very little storage impact.
 
 Looking at [this Microsoft doc on User-Account-Control attribute](https://docs.microsoft.com/en-us/windows/win32/adschema/a-useraccountcontrol), we should be generally concerned with the last (right-most) digit. When it is `2`, the account is disabled.
 
@@ -28,7 +28,7 @@ Let's convert these to integers using Ruby:
 514
 ```
 
-Most of the time we see either 512 or 514 as the integer value for this attribute. We can conver the other way as well from integer (base 10) back to hexidecimal (base 16).
+Most of the time we see either 512 or 514 as the integer value for this attribute. We can conver the other way as well from integer (base 10) back to hexadecimal (base 16).
 
 ```ruby
 512.to_s(16)
