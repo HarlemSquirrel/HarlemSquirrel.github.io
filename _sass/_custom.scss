@@ -130,7 +130,7 @@ button[name="dark_light"] {
   transition: .4s;
 
   &:before {
-    padding-top: 1px;
+    padding: 1px;
     position: absolute;
     color: $slider-text-color;
     content: "Light";
@@ -148,7 +148,7 @@ button[name="dark_light"] {
 }
 
 input:checked + .slider:before {
-  $transform-distance: calc(#{$switch-width} - #{$slider-width} - 8px);
+  $transform-distance: calc(#{$switch-width} - #{$slider-width} - 0.6rem);
   background-color: $slider-text-color;
   color: $slider-text-color-checked;
   content: "Dark";
