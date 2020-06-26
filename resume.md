@@ -59,6 +59,7 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 - Maintain our custom SimpleSAMLphp IDP implementation
 - Migrated an on-premise Rails app to AWS as first app in our organization to move to the cloud
 - Spearheaded my initiative to extract common custom CSS and JavaScript to a separate repository and secure public CDN hosting
+- Design and carry out disaster recovery scenarios for mission-critical applications and services.
 {: .list-plus}
 
 #### Code Climate, New York, NY
