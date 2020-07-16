@@ -12,7 +12,7 @@ permalink: /resume
 ![Me at Watkins Glen](https://raw.githubusercontent.com/HarlemSquirrel/kevin_mccormack/master/assets/images/me_watkins_glen.jpg){: .resume-pic }
 Since 2016 I have built, deployed, and maintained full stack web applications on Heroku, AWS, Digital Ocean, and on-premise servers. I document my work in detail, use Git for version control, and am familiar with GitHub, Bitbucket, and GitLab. I believe that every application should have a comprehensive test suite. Continuous integration with automated testing and deployments are key in maximizing productivity while minimizing downtime.
 
-I am a big fan of open source software. I have a number of my own projects on GitHub and contribute to other projects when I can such as [home-assistant](https://www.home-assistant.io/), [ActiveLdap](https://github.com/activeldap/activeldap/), and [AmazingPrint](https://github.com/amazing-print/amazing_print/releases).
+I am a big fan of open source software. I have a number of my own projects on GitHub and contribute to other projects when I can such as [home-assistant](https://www.home-assistant.io/), [ActiveLdap](https://github.com/activeldap/activeldap/), [AmazingPrint](https://github.com/amazing-print/amazing_print/releases), and [Net::LDAP](https://github.com/ruby-ldap/ruby-net-ldap).
 
 I am proficient in server side tools including Ruby on Rails and shell scripting. On the client side I am proficient in HTML, CSS (including SCSS), and JavaScript (including jQuery). I am always looking to learn new languages and frameworks. I have been working on Python lately.
 
