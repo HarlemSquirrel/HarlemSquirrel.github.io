@@ -8,12 +8,12 @@ function print_resume() {
   var element = document.querySelector('body')
   // var element = document.querySelector('body').cloneNode(true)
   var opt = {
-    margin:       0.6,
+    margin:       [1.2, 1],
     enableLinks:  true,
     filename:     'kevin_mccormack_resume_' + formattedDate(date) + '.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 2 },
-    jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    jsPDF:        { unit: 'cm', format: 'letter', orientation: 'portrait' }
   };
 
   var currentClass = element.className
