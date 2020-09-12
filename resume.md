@@ -44,6 +44,7 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 #### Weill Cornell Medicine, New York, NY
 
 **Senior Software Engineer, Identity and Access**, Feb 2020 - Present
+
 **Identity and Access Software Engineer**, May 2017 - Feb 2020
 
 - Diagnose issues identified from users, error reports, and log analysis tools to quickly squash
@@ -58,7 +59,7 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 - Oversee building comprehensive test suites for existing applications
 - Streamline deployments with Ansible and Capistrano
 - Lead the way in establishing continuous integration using CircleCI and AWS Code Pipeline.
-- Established code quality standards and continous enforcement using tools such as Rubocop, ESLint,
+- Established code quality standards and continuous enforcement using tools such as Rubocop, ESLint,
   Overcommit, and CircleCI
 - Maintain our custom SimpleSAMLphp IDP implementation
 - Migrated an on-premise Rails app to AWS as first app in our organization to move to the cloud
