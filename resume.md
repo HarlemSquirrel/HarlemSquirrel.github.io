@@ -24,7 +24,7 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 - CSS (SCSS)
 - Docker (Compose)
 - HTML
-- JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Quill, typeahead.js, Webpack, Yarn)
+- JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Quill, React, typeahead.js, Webpack, Yarn)
 - LDAP (ActiveLDAP, OpenDJ, OpenLDAP, PingDirectory)
 - Linux (ArchLinux, CentOS, Fedora, RHEL, Ubuntu)
 - Load testing (ApacheBench, Siege)
@@ -43,9 +43,9 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 #### Weill Cornell Medicine, New York, NY
 
-**Senior Software Engineer, Identity and Access**, Feb 2020 - Present
+May 2017 - Feb 2020
 
-**Identity and Access Software Engineer**, May 2017 - Feb 2020
+**Senior Software Engineer, Identity and Access**
 
 - Diagnose issues identified from users, error reports, and log analysis tools to quickly squash
   bugs
@@ -68,7 +68,9 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 #### Code Climate, New York, NY
 
-**Software Engineer**, March 2017 - May 2017
+March 2017 - May 2017
+
+**Software Engineer**
 
 - Work closely with the sales and product teams to update marketing pages
 - Update [Middleman](https://github.com/middleman/middleman) app with custom modules
@@ -78,7 +80,9 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 #### Constant Contact, New York, NY
 
-**Software Engineer**, October 2016 - March 2017
+October 2016 - March 2017
+
+**Software Engineer**
 
 - Work on a small team of engineers that works closely with the sales and product teams
 - Engage in agile development including team feature planning with Jira
@@ -90,7 +94,9 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 #### Flatiron School, New York, NY
 
-Online Instructor, May 2016 - October 2016
+May 2016 - October 2016
+
+Online Instructor
 
 - Assisted students learning full stack web development with Ruby on Rails and JavaScript
 - Fielded student coding and development environment questions
@@ -99,7 +105,9 @@ Online Instructor, May 2016 - October 2016
 
 #### East Bronx Academy, Bronx, NY
 
-**Teacher and Solutions Architect**, Aug 2008 - September 2016
+Aug 2008 - September 2016
+
+**Teacher and Solutions Architect**
 
 - Designed and taught year-long curriculum for computer science and music in grades 6-12
 - Administered Google Apps for Education account with over 800 active users
