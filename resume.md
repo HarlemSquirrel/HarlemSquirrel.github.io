@@ -46,7 +46,7 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 #### Weill Cornell Medicine, New York, NY
 
-May 2017 - Feb 2020
+May 2017 - Present
 
 **Senior Software Engineer, Identity and Access**
 
