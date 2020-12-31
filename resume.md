@@ -18,21 +18,24 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 ### Technologies
 
-- Cloud (AWS Elastic Beanstalk, AWS S3, Digital Ocean)
+- Application web servers (Apache HTTP Server, Puma, Tomcat)
+- Cloud (AWS EC2, AWS Elastic Beanstalk, AWS S3, AWS Secrets, Digital Ocean, Heroku)
 - Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, YAMLlint)
+- Databases (Microsoft SQL Server, MySQL, Oracle SQL, PostgreSQL, Redis, SQLite)
 - Development operations (Ansible, AWS Code Pipeline, Capistrano, CircleCI, Travis CI, Selenium)
 - CSS (SCSS)
 - Docker (Compose)
 - HTML
-- JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Quill, React, typeahead.js, Webpack, Yarn)
-- LDAP (ActiveLDAP, OpenDJ, OpenLDAP, PingDirectory)
+- JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Node.js, Quill, React, typeahead.js, Webpack, Yarn)
+- LDAP (ActiveDirectory, OpenDJ, OpenLDAP, PingDirectory)
 - Linux (ArchLinux, CentOS, Fedora, RHEL, Ubuntu)
-- Load testing (ApacheBench, Siege)
-- Monitoring (New Relic, Uptime Robot)
+- Load testing (Apache Bench, lb, Siege)
+- Monitoring (Honeybadger, New Relic, Uptime Robot)
+- Multi-factor authentication (Duo)
 - OmniAuth
-- PHP (SimpleSAMLphp)
-- Python (Flask, ldap3)
-- Ruby (Active Admin, Capybara, Devise, Haml, JRuby, Rails, RSpec, RVM, Selenium, Sinatra, WebMock)
+- PHP (Composer, PHPUnit, SimpleSAMLphp)
+- Python (Flask, ldap3, pytest)
+- Ruby (Active Admin, ActiveLDAP, Capybara, Devise, Haml, JRuby, Net::LDAP, Rails, RSpec, RVM, Selenium, Sidekiq, Sinatra, VCR, WebMock)
 - SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
 - Shell scripting
 - Splunk (splunk-sdk-ruby)
@@ -50,6 +53,7 @@ May 2017 - Feb 2020
 - Diagnose issues identified from users, error reports, and log analysis tools to quickly squash
   bugs
 - Bridge the divide between technical and non-technical teams to dissect issues and enhancements
+- Orchestrate highly complex systems for role-based access control (RBAC)
 - Design and develop new features for a suite of custom identity management applications built with
   Ruby on Rails, JRuby, PHP, JavaScript, and Python
 - Lead and mentor a team of developers in person and remotely
