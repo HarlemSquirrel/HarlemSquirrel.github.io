@@ -51,7 +51,12 @@ function togglePageContentLightDark() {
   var newClass = body.className == 'dark-mode' ? 'light-mode' : 'dark-mode'
   body.className = newClass
 
-  document.cookie = 'theme=' + (newClass == 'light-mode' ? 'light' : 'dark')
+  // Save the theme preference for 10 years.
+  var endDate = new Date();
+  endDate.setFullYear(endDate.getFullYear() + 10);
+
+  document.cookie = 'theme=' + (newClass == 'light-mode' ? 'light' : 'dark') +
+                    '; Expires=' + endDate + ';'
   console.log('Cookies are now: ' + document.cookie)
 }
 ```

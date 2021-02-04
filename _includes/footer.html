@@ -58,7 +58,12 @@
     var newClass = pageContent.className == 'page-content' ? 'page-content-light' : 'page-content'
     pageContent.className = newClass
 
-    document.cookie = 'theme=' + (newClass == 'page-content-light' ? 'light' : 'dark')
+    // Save the theme preference for 10 years.
+    var endDate = new Date();
+    endDate.setFullYear(endDate.getFullYear() + 10);
+
+    document.cookie = 'theme=' + (newClass == 'page-content-light' ? 'light' : 'dark') +
+                      '; Expires=' + endDate + ';'
   }
 
   (function() {
