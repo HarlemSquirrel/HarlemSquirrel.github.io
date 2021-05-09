@@ -33,7 +33,9 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 - Monitoring (Honeybadger, New Relic, Uptime Robot)
 - Multi-factor authentication (Duo)
 - OmniAuth
+- Payment processing (Chargebee, Stripe)
 - PHP (Composer, PHPUnit, SimpleSAMLphp)
+- Project management tools (Asana, Jira, Taiga, Trello)
 - Python (Flask, ldap3, pytest)
 - Ruby (Active Admin, ActiveLDAP, Capybara, Devise, Haml, JRuby, Net::LDAP, Rails, RSpec, RVM, Selenium, Sidekiq, Sinatra, VCR, WebMock)
 - SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
@@ -44,30 +46,45 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 
 ### Work History
 
+#### Cerebral, Remote
+
+Jan 2021 - Present
+
+**Lead Software Engineer**
+
+- Championed the adoption of Rubocop, Brakeman, and other static analysis tools into our CI pipeline
+- Championed BDD integration testing with Capybara
+- Improved development workflow by establishing clear git guidelines
+- Mentored other developers across teams on best practices in Ruby and automated testing
+- Designed highly impactful features to automate manual processes
+- Wrote clearly defined user stories with clear and specific technical requirements for epics
+- Ran efficient stand-up meetings to identify blockers
+{: .list-plus}
+
 #### Weill Cornell Medicine, New York, NY
 
-May 2017 - Present
+May 2017 - Dec 2020
 
 **Senior Software Engineer, Identity and Access**
 
-- Diagnose issues identified from users, error reports, and log analysis tools to quickly squash
+- Diagnosed issues identified from users, error reports, and log analysis tools to quickly squash
   bugs
-- Bridge the divide between technical and non-technical teams to dissect issues and enhancements
-- Orchestrate highly complex systems for role-based access control (RBAC)
-- Design and develop new features for a suite of custom identity management applications built with
+- Bridged the divide between technical and non-technical teams to dissect issues and enhancements
+- Orchestrated highly complex systems for role-based access control (RBAC)
+- Designed and developed new features for a suite of custom identity management applications built with
   Ruby on Rails, JRuby, PHP, JavaScript, and Python
-- Lead and mentor a team of developers in person and remotely
-- Regularly update internal technical documentation for my team and other teams
-- Collaborate with internal and external teams to design and develop complex data synchronization
+- Led and mentored a team of developers in person and remotely
+- Regularly updated internal technical documentation for my team and other teams
+- Collaborated with internal and external teams to design and develop complex data synchronization
   and processing between a wide range of databases, systems and services
-- Oversee building comprehensive test suites for existing applications
-- Streamline deployments with Ansible and Capistrano
-- Lead the way in establishing continuous integration using CircleCI and AWS Code Pipeline.
+- Oversaw building comprehensive test suites for existing applications
+- Streamlined deployments with Ansible and Capistrano
+- Led the way in establishing continuous integration using CircleCI and AWS Code Pipeline.
 - Established code quality standards and continuous enforcement using tools such as Rubocop, ESLint,
   Overcommit, and CircleCI
-- Maintain our custom SimpleSAMLphp IDP implementation
+- Maintained our custom SimpleSAMLphp IdP implementation
 - Migrated an on-premise Rails app to AWS as first app in our organization to move to the cloud
-- Design and carry out disaster recovery scenarios for mission-critical applications and services.
+- Designed and carried out disaster recovery scenarios for mission-critical applications and services.
 {: .list-plus}
 
 #### Code Climate, New York, NY
