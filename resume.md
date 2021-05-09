@@ -30,7 +30,7 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 - LDAP (ActiveDirectory, OpenDJ, OpenLDAP, PingDirectory)
 - Linux (ArchLinux, CentOS, Fedora, RHEL, Ubuntu)
 - Load testing (Apache Bench, lb, Siege)
-- Monitoring (Honeybadger, New Relic, Uptime Robot)
+- Monitoring (Datadog, Honeybadger, New Relic, Rollbar, Splunk, Uptime Robot)
 - Multi-factor authentication (Duo)
 - OmniAuth
 - Payment processing (Chargebee, Stripe)
@@ -40,7 +40,6 @@ Since the spring of 2017, I have been a software engineer at [Weill Cornell Medi
 - Ruby (Active Admin, ActiveLDAP, Capybara, Devise, Haml, JRuby, Net::LDAP, Rails, RSpec, RVM, Selenium, Sidekiq, Sinatra, VCR, WebMock)
 - SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
 - Shell scripting
-- Splunk (splunk-sdk-ruby)
 - Version control (Bitbucket GitLab, GitHub)
 {: .list-plus}
 
