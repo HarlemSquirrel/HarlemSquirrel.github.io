@@ -17,14 +17,14 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 - Application web servers (Apache HTTP Server, Puma, Tomcat)
 - Cloud (AWS EC2, AWS Elastic Beanstalk, AWS S3, AWS Secrets, Digital Ocean, Heroku)
 - Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, YAMLlint)
-- Databases (Microsoft SQL Server, MySQL, Oracle SQL, PostgreSQL, Redis, SQLite)
-- Development operations (Ansible, AWS Code Pipeline, Capistrano, CircleCI, Travis CI, Selenium)
+- Containers (Docker, Docker Compose, Kubernetes)
 - CSS (SCSS)
-- Docker (Compose)
-- HTML
-- JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Node.js, Quill, React, typeahead.js, Webpack, Yarn)
+- Databases (Microsoft SQL Server, MySQL, Oracle SQL, PostgreSQL, Redis, SQLite)
+- Development operations (Ansible, AWS Code Pipeline, Capistrano, CircleCI, Jenkins, Travis CI, Selenium)
+- HTML (HTML5)
+- JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Node.js, Quill, React, typeahead.js, TypeScript, Webpack, Yarn)
 - LDAP (ActiveDirectory, OpenDJ, OpenLDAP, PingDirectory)
-- Linux (ArchLinux, CentOS, Fedora, RHEL, Ubuntu)
+- Linux (ArchLinux, CentOS, Debian, Fedora, RHEL, Ubuntu)
 - Load testing (Apache Bench, lb, Siege)
 - Monitoring (Datadog, Honeybadger, New Relic, Rollbar, Splunk, Uptime Robot)
 - Multi-factor authentication (Duo)
@@ -51,9 +51,15 @@ Jan 2021 - Present
 - Championed BDD integration testing with Capybara
 - Improved development workflow by establishing clear git guidelines
 - Mentored other developers across teams on best practices in Ruby and automated testing
-- Designed highly impactful features to automate manual processes
+- Crafted component architecture diagrams for new and existing systems
+- Designed and implemented highly impactful features to automate manual processes
 - Wrote clearly defined user stories with clear and specific technical requirements for epics
 - Ran efficient stand-up meetings to identify blockers
+- Gave engineering-wide presentation on Active Record queries for peformance, efficiency, and
+  security
+- Conducted live coding and technical design interviews
+- Refactored endpoints to reduce the number of database queries and reduce latency
+
 {: .list-plus}
 
 #### Weill Cornell Medicine, New York, NY
