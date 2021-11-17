@@ -26,7 +26,7 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 - LDAP (ActiveDirectory, OpenDJ, OpenLDAP, PingDirectory)
 - Linux (ArchLinux, CentOS, Debian, Fedora, RHEL, Ubuntu)
 - Load testing (Apache Bench, lb, Siege)
-- Monitoring (Datadog, Honeybadger, New Relic, Rollbar, Splunk, Uptime Robot)
+- Monitoring (Datadog, Honeybadger, New Relic, Rollbar, Sentry, Splunk, Uptime Robot)
 - Multi-factor authentication (Duo)
 - OmniAuth
 - Payment processing (Chargebee, Stripe)
@@ -41,9 +41,21 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 
 ### Work History
 
+#### Hotel Engine, Remote
+
+Oct 2021 - Present
+
+** Senior Software Engineer**
+
+- Reduced endpoint latency by tweaking PostgreSQL queries and creating composite indexes
+- Paired with developers at different levels across teams to solve complex problems and share knowledge
+- Created technical flow diagrams for complex data ingestion and state machines
+- Assisted with on-boarding new engineers
+- Devised and implemented a solution to reduce failed bookings
+
 #### Cerebral, Remote
 
-Jan 2021 - Present
+Jan 2021 - Oct 2021
 
 **Lead Software Engineer**
 
