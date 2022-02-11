@@ -143,6 +143,8 @@ else:
     print("Houston, we may have a problem!")
 ```
 
+As I continue to make updates to this script you can always find the latest version [here on GitHub].
+
 [Linux]: https://www.raspberrypi.org/downloads/
 [FreeBSD]: https://wiki.freebsd.org/FreeBSD/arm/Raspberry%20Pi
 [Windows 10 IoT]: https://blogs.windows.com/buildingapps/2016/02/29/windows-10-iot-core-support-for-raspberry-pi-3/
@@ -152,3 +154,4 @@ else:
 [Raspberry Pi forum post]: https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=147781&start=50#p972790
 [Raspberry Pi firmware commit comment]: https://github.com/raspberrypi/firmware/commit/404dfef3b364b4533f70659eafdcefa3b68cd7ae#commitcomment-31620480
 [Python]: https://docs.python.org/3.5/library/functions.html#bin
+[here on GitHub]: https://github.com/HarlemSquirrel/scripts/blob/master/rpi-check-throttling.py
