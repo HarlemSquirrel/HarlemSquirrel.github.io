@@ -22,7 +22,7 @@ markdown: kramdown
 plugins: [jekyll-paginate]
 
 # Outputting
-paginate: 10
+paginate: 20
 
 liquid:
   error_mode: warn
