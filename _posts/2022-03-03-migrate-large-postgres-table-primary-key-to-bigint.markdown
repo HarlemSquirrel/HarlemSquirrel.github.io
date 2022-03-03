@@ -169,6 +169,8 @@ HouseKeeping::IdBigintSetter.new(OtherTable).call(column_name: :big_table_id)
 
 Aside from populating IDs for existing records, the next most time-consuming part of this was rebuilding indexes for the new keys. Luckily, PostgreSQL offers the option to create indexes concurrently while other work is allowed to continue uninterrupted. It also allows us to recreate primary and foreign key constraints using an existing index. This will dramatically reduce the amount of time needed to lock the tables during the transition.
 
+We also need to make sure to rebuild any indexes that include the primiary or foreign keys.
+
 ## Testing with real data
 
 In order to get some realistic time estimates we decided to download the real tables from production and import to my laptop. Due to references across tables we had to retrieve more than just the two tables we needed to update.
