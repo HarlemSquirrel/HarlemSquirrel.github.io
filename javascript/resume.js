@@ -1,27 +1,31 @@
-function formattedDate(date) {
-  // YYYYMMDD
-  return date.toISOString().split('T')[0].replace(/-/gi, '')
-}
+/**
+ * Returns the date in the format "YYYYMMDD".
+ * @param {Date} date - The date to format.
+ * @returns {string} The formatted date.
+ */
 
-function print_resume() {
-  var date = new Date()
-  var element = document.querySelector('body')
-  // var element = document.querySelector('body').cloneNode(true)
-  var opt = {
-    margin:       [1.2, 1],
-    enableLinks:  true,
-    filename:     'kevin_mccormack_resume_' + formattedDate(date) + '.pdf',
-    image:        { type: 'jpeg', quality: 0.98 },
-    html2canvas:  { scale: 2 },
-    jsPDF:        { unit: 'cm', format: 'letter', orientation: 'portrait' }
+const formattedDate = date => date.toISOString().slice(0, 10).replace(/-/g, '');
+
+function printResume() {
+  const date = new Date();
+  const bodyElement = document.querySelector('body');
+  const { className } = bodyElement;
+
+  bodyElement.className = 'pdf';
+
+  const pdfOptions = {
+    margin: [1.2, 1],
+    enableLinks: true,
+    filename: `kevin_mccormack_resume_${formattedDate(date)}.pdf`,
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: 'cm', format: 'letter', orientation: 'portrait' },
   };
 
-  var currentClass = element.className
-  element.className = "pdf"
-
-  html2pdf().set(opt).from(element).save().then(function () {
-    element.className = currentClass
-  })
+  html2pdf().set(pdfOptions).from(bodyElement).save().then(() => {
+      bodyElement.className = className;
+    })
+    .catch(error => console.error('Error generating PDF:', error));
 }
 
-document.getElementById('downloadPDF').onclick = print_resume
+document.getElementById('downloadPDF').onclick = printResume;
