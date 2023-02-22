@@ -39,36 +39,32 @@
 </footer>
 
 <script type="text/javascript">
-  function setThemeFromCookie() {
-    var pageContent = document.getElementById('page-content')
-    pageContent.className = isDarkThemeSelected() ? 'page-content' : 'page-content-light'
-  }
+  const isDarkThemeSelected = () => document.cookie.match(/theme=dark/i) !== null;
 
-  function isDarkThemeSelected() {
-    return document.cookie.match(/theme=dark/i) != null
+  function setThemeFromCookie() {
+    const pageContent = document.getElementById('page-content');
+    pageContent.className = isDarkThemeSelected() ? 'page-content' : 'page-content-light';
   }
 
   function setLightDarkSwitchState() {
-    document.getElementById('lightDarkSwitchInput').checked = isDarkThemeSelected()
+    document.getElementById('lightDarkSwitchInput').checked = isDarkThemeSelected();
   }
 
   function togglePageContentLightDark() {
-    var pageContent = document.getElementById('page-content')
-    var currentClass = pageContent.className;
-    var newClass = pageContent.className == 'page-content' ? 'page-content-light' : 'page-content'
-    pageContent.className = newClass
+    const pageContent = document.getElementById('page-content');
+    const currentClass = pageContent.className;
+    const newClass = currentClass === 'page-content' ? 'page-content-light' : 'page-content';
+    pageContent.className = newClass;
 
     // Save the theme preference for 10 years.
-    var endDate = new Date();
+    const endDate = new Date();
     endDate.setFullYear(endDate.getFullYear() + 10);
-
-    document.cookie = 'theme=' + (newClass == 'page-content-light' ? 'light' : 'dark') +
-                      '; Expires=' + endDate + ';'
+    document.cookie = `theme=${newClass === 'page-content-light' ? 'light' : 'dark'}; Expires=${endDate};`;
   }
 
-  (function() {
-    setThemeFromCookie()
-    setLightDarkSwitchState()
-    document.getElementById('lightDarkSwitchInput').onchange=togglePageContentLightDark
+  (function () {
+    setThemeFromCookie();
+    setLightDarkSwitchState();
+    document.getElementById('lightDarkSwitchInput').onchange = togglePageContentLightDark;
   })();
 </script>
