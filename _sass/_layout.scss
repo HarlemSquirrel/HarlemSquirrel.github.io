@@ -3,7 +3,7 @@
  */
 .site-header {
     background-color: $dark-glass;
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid $color-grey-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -20,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $color-grey-dark;
     }
 }
 
@@ -33,8 +33,8 @@
     }
 
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        color: $color-text;
+        line-height: $line-height-base;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -42,12 +42,12 @@
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($breakpoint-palm) {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        background-color: $color-background;
+        border: 1px solid $color-grey-light;
         border-radius: 5px;
         text-align: right;
 
@@ -65,7 +65,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $color-grey-dark;
                 }
             }
         }
@@ -99,7 +99,7 @@
  */
 .site-footer {
   background-color: $darker-glass;
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $color-grey-light;
     padding: $spacing-unit 0;
 }
 
@@ -116,7 +116,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $color-grey;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -142,24 +142,24 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include media-query($breakpoint-laptop) {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
-@include media-query($on-palm) {
+@include media-query($breakpoint-palm) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -187,8 +187,8 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    font-size: $font-size-small;
+    color: $color-grey;
 }
 
 .page-content-light {
@@ -216,7 +216,7 @@
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
+    @include media-query($breakpoint-laptop) {
         font-size: 36px;
     }
 }
@@ -227,7 +227,7 @@
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include media-query($breakpoint-laptop) {
             font-size: 28px;
         }
     }
@@ -235,7 +235,7 @@
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include media-query($breakpoint-laptop) {
             font-size: 22px;
         }
     }
@@ -243,7 +243,7 @@
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include media-query($breakpoint-laptop) {
             font-size: 18px;
         }
     }
