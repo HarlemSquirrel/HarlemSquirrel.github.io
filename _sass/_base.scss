@@ -14,10 +14,9 @@ dl, dd, ol, ul, figure {
 * Basic styling
 */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  //background-color: $background-color;
-  background: fixed $background-color $background-image;
+  font: $font-weight-base #{$font-size-base}/#{$line-height-base} $font-family-base;
+  color: $color-text;
+  background: fixed $color-background $background-image;
   background-size: cover;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -59,7 +58,7 @@ figure > img {
 }
 
 figcaption {
-  font-size: $small-font-size;
+  font-size: $font-size-small;
 }
 
 
@@ -84,7 +83,7 @@ li {
 * Headings
 */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: $font-weight-base;
 }
 
 
@@ -93,25 +92,24 @@ h1, h2, h3, h4, h5, h6 {
 * Links
 */
 a {
-  color: $brand-color;
+  color: $color-brand;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($color-brand, 15%);
   }
 
   &:hover {
-    color: lighten($brand-color, 2%);
-    text-shadow: 1px 1px 8px lighten($brand-color, 8%);
+    color: lighten($color-brand, 2%);
+    text-shadow: 1px 1px 8px lighten($color-brand, 8%);
 
     &:active, &:focus {
-      color: darken($brand-color, 10%);
-      text-shadow: 1px 1px 10px lighten($brand-color, 2%);
+      color: darken($color-brand, 10%);
+      text-shadow: 1px 1px 10px lighten($color-brand, 2%);
     }
   }
 
 }
-
 
 
 /**
@@ -137,10 +135,8 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $color-grey-light;
   border-radius: 3px;
-  //background-color: #eef;
-
 }
 
 code {
@@ -148,7 +144,7 @@ code {
 }
 
 pre {
-  color: $text-color;
+  color: $color-text;
   padding: 8px 12px;
   overflow-x: auto;
 
@@ -173,7 +169,7 @@ pre {
   padding-left: $spacing-unit;
   @extend %clearfix;
 
-  @include media-query($on-laptop) {
+  @include media-query($breakpoint-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
@@ -209,7 +205,7 @@ pre {
     vertical-align: middle;
 
     path {
-      fill: $grey-color;
+      fill: $color-grey;
     }
   }
 }
