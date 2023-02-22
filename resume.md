@@ -45,7 +45,7 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 
 Oct 2021 - Present
 
-** Staff Software Engineer**
+**Staff Software Engineer**
 
 - Reduced endpoint latency by tweaking PostgreSQL queries and creating composite indexes
 - Paired with developers at different levels across teams to solve complex problems and share knowledge
@@ -213,4 +213,3 @@ MS: Instructional Media
 **City College of New York - New York, NY - 2008**
 
 BFA: Jazz Performance and Education
-
