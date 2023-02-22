@@ -26,17 +26,17 @@
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-      border-top-color: transparent;
-      border-right-color: transparent;
-      border-bottom-color: transparent;
-      border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
   padding: .375rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: .25rem;
-      border-top-left-radius: 0.25rem;
-      border-bottom-left-radius: 0.25rem;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
   &:not(:disabled):not(.disabled) {
     cursor: pointer;
@@ -46,7 +46,7 @@
 
 .btn-clear {
   background-color: transparent;
-  color: darken($brand-color, 25%);
+  color: darken($color-brand, 25%);
 
   &:hover {
     background-color: rgba(127,127,127, 0.25);
@@ -97,8 +97,8 @@ button[name="dark_light"] {
 
   padding: 30px 0;
 
-  a { color: darken($brand-color, 25%) }
-  svg { fill: darken($brand-color, 25%) }
+  a { color: darken($color-brand, 25%) }
+  svg { fill: darken($color-brand, 25%) }
 }
 
 .d-inline-block {
@@ -125,14 +125,14 @@ button[name="dark_light"] {
   right: 0;
   bottom: 0;
   height: 2.1rem;
-  background-color: $switch-bg-color;
+  background-color: $color-switch-bg;
   -webkit-transition: .4s;
   transition: .4s;
 
   &:before {
     padding: 1px;
     position: absolute;
-    color: $slider-text-color;
+    color: $color-slider-text;
     content: "Light";
     font-size: calc(#{$slider-height} * 0.6);
     line-height: 1.7;
@@ -149,8 +149,8 @@ button[name="dark_light"] {
 
 input:checked + .slider:before {
   $transform-distance: calc(#{$switch-width} - #{$slider-width} - 0.6rem);
-  background-color: $slider-text-color;
-  color: $slider-text-color-checked;
+  background-color: $color-slider-text;
+  color: $color-slider-text-checked;
   content: "Dark";
   -webkit-transform: translateX($transform-distance);
   -ms-transform: translateX($transform-distance);
@@ -173,3 +173,4 @@ input:checked + .slider:before {
     }
   }
 }
+
