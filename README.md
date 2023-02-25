@@ -1,4 +1,6 @@
-# [HarlemSquirrel.github.io](https://harlemsquirrel.github.io)
+# [blog.mccormack.tech](https://blog.mccormack.tech)
+
+![pages build](https://github.com/HarlemSquirrel/HarlemSquirrel.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 A Blog.
 
