@@ -1,55 +1,55 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 
 
-// Our variables
-$base-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// Fonts
+$font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size-base: 16px;
+$font-weight-base: 400;
+$font-size-small: $font-size-base * 0.875;
+$line-height-base: 1.5;
 
-$spacing-unit:     30px;
+// Main Colors
+$color-text: #f2f2f2;
+$color-background: #cccccc;
+$color-brand: #33cc33;
 
-$text-color:       #f2f2f2;
-$background-color: #cccccc;
+$color-grey: #e6e6e6;
+$color-grey-light: lighten($color-grey, 40%);
+$color-grey-dark: darken($color-grey, 10%);
+
+$color-switch-bg: rgba($color-brand, 0.8);
+$color-slider-text: #333;
+$color-slider-text-checked: #ddd;
+
+// Spacing
+$spacing-unit: 30px;
+
+// Background
 $background-image: url("/assets/images/DSC_0775.JPG");
-$brand-color:      #33cc33;
 
+// Layout
+$content-width: 1200px;
+
+// Responsive breakpoints
+$breakpoint-palm: 600px;
+$breakpoint-laptop: 800px;
+
+// Other Colors
 $dark-glass:       rgba(#000, 0.5);
 $darker-glass:     rgba(#000,0.8);
 $frosted-glass:    rgba(240,240,240,0.90);
 
-$grey-color:       #e6e6e6;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 10%);
-
-// Width of the content area
-$content-width:    1200px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
 // Light/Dark theme slider
-$switch-bg-color: rgba($brand-color, 0.8);
+$switch-width: 4.5rem;
 $slider-height: 1.5rem;
 $slider-width: 2.5rem;
-$slider-text-color: #333;
-$slider-text-color-checked: #ddd;
-$switch-width: 4.5rem;
 
 
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
