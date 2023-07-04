@@ -52,6 +52,9 @@ Oct 2021 - Present
 - Created technical flow diagrams for complex data ingestion and state machines
 - Assisted with on-boarding new engineers
 - Devised and implemented a solution to reduce failed bookings
+- Planned and performed complex data migrations and software upgrades with zero down time
+- Lead efforts to improve system monitoring across the organization to minimize outages
+- Built custom code coverage tool and incorporated in CI for multiple projects from Rails to NodeJS
 
 #### Cerebral, Remote
 
