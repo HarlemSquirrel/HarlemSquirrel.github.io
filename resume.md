@@ -17,10 +17,10 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 - Application web servers (Apache HTTP Server, Puma, Tomcat)
 - Cloud (AWS EC2, AWS Elastic Beanstalk, AWS S3, AWS Secrets, Digital Ocean, Heroku)
 - Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, YAMLlint)
-- Containers (Docker, Docker Compose, Kubernetes)
+- Containers (AWS ECS, Docker, Docker Compose, Kubernetes)
 - CSS (SCSS)
 - Databases (Microsoft SQL Server, MySQL, Oracle SQL, PostgreSQL, Redis, SQLite)
-- Development operations (Ansible, AWS Code Pipeline, Capistrano, CircleCI, Jenkins, Travis CI, Selenium)
+- Deployment and Infratstructure (Ansible, AWS Code Pipeline, Capistrano, CircleCI, GitHub Actions, Jenkins, Terraform, Travis CI)
 - HTML (HTML5)
 - JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Node.js, Quill, React, typeahead.js, TypeScript, Webpack, Yarn)
 - LDAP (ActiveDirectory, OpenDJ, OpenLDAP, PingDirectory)
@@ -36,7 +36,7 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 - Ruby (Active Admin, ActiveLDAP, Capybara, Devise, Haml, JRuby, Net::LDAP, Rails, RSpec, RVM, Selenium, Sidekiq, Sinatra, VCR, WebMock)
 - SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
 - Shell scripting
-- Version control (Bitbucket GitLab, GitHub)
+- Version control (Bitbucket, GitLab, GitHub)
 {: .list-plus}
 
 ### Work History
