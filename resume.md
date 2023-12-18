@@ -71,7 +71,7 @@ Jan 2021 - Oct 2021
 - Designed and implemented highly impactful features to automate manual processes
 - Wrote clearly defined user stories with clear and specific technical requirements for epics
 - Ran efficient stand-up meetings to identify blockers
-- Gave engineering-wide presentation on Active Record queries for peformance, efficiency, and
+- Gave engineering-wide presentation on Active Record queries for performance, efficiency, and
   security
 - Conducted live coding and technical design interviews
 - Refactored endpoints to reduce the number of database queries and reduce latency
