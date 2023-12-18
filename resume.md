@@ -22,7 +22,7 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 - Databases (Microsoft SQL Server, MySQL, Oracle SQL, PostgreSQL, Redis, SQLite)
 - Deployment and Infratstructure (Ansible, AWS Code Pipeline, Capistrano, CircleCI, GitHub Actions, Jenkins, Terraform, Travis CI)
 - HTML (HTML5)
-- JavaScript (Angular v1, Cropper, Electron, Inputmask, JQuery, Node.js, Quill, React, typeahead.js, TypeScript, Webpack, Yarn)
+- JavaScript (Angular v1, Cropper, Electron, Express, Inputmask, JQuery, Node.js, Quill, React, typeahead.js, TypeScript, Webpack, Yarn)
 - LDAP (ActiveDirectory, OpenDJ, OpenLDAP, PingDirectory)
 - Linux (ArchLinux, CentOS, Debian, Fedora, RHEL, Ubuntu)
 - Load testing (Apache Bench, lb, Siege)
@@ -47,6 +47,7 @@ Oct 2021 - Present
 
 **Staff Software Engineer**
 
+- Designed and built TypeScript Express app with dynamically generated endpoints to serve complex aggregate queries from our data warehouse.
 - Reduced endpoint latency by tweaking PostgreSQL queries and creating composite indexes
 - Paired with developers at different levels across teams to solve complex problems and share knowledge
 - Created technical flow diagrams for complex data ingestion and state machines
