@@ -56,6 +56,7 @@ Oct 2021 - Present
 - Planned and performed complex data migrations and software upgrades with zero down time
 - Lead efforts to improve system monitoring across the organization to minimize outages
 - Built custom code coverage tool and incorporated in CI for multiple projects from Rails to NodeJS
+{: .list-plus}
 
 #### Cerebral, Remote
 
@@ -75,7 +76,6 @@ Jan 2021 - Oct 2021
   security
 - Conducted live coding and technical design interviews
 - Refactored endpoints to reduce the number of database queries and reduce latency
-
 {: .list-plus}
 
 #### Weill Cornell Medicine, New York, NY
