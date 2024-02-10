@@ -45,7 +45,7 @@
     @include media-query($breakpoint-palm) {
         position: absolute;
         top: 9px;
-        right: calc($spacing-unit / 2);
+        right: $spacing-unit / 2;
         background-color: $color-background;
         border: 1px solid $color-grey-light;
         border-radius: 5px;
