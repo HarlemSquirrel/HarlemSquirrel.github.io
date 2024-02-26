@@ -26,6 +26,9 @@ header {
   .contact-table {
     text-align: center;
     font-weight: bold;
+    @media screen and (max-width: 520px) {
+      font-size: 10px;
+    }
     td {
       padding-right: 1rem;
     }
@@ -137,13 +140,5 @@ ul.list-plus {
 @media print {
   body {
     @include print_layout;
-
-    a[href]:after {
-      content: " (" attr(href) ")";
-    }
-    a:after, a[href^="javascript:"]:after, a[href^="#"]:after, a[href^="tel:"]:after, a[href^="mailto:"]:after {
-      content: "";
-    }
   }
 }
-
