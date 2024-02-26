@@ -7,6 +7,7 @@ A Blog.
 ## Dependencies
 
 - [Ruby](https://www.ruby-lang.org/)
+- https://pages.github.com/versions/
 
 ## Run locally
 
