@@ -110,10 +110,10 @@ March 2017 - May 2017
 
 **Software Engineer**
 
-- Work closely with the sales and product teams to update marketing pages
-- Update [Middleman](https://github.com/middleman/middleman) app with custom modules
-- Move app from Rails Asset Pipeline to Webpack
-- Build pages based on designs using HTML, SCSS, and JavaScript
+- Worked closely with the sales and product teams to update marketing pages
+- Updated [Middleman](https://github.com/middleman/middleman) app with custom modules
+- Moveed app from Rails Asset Pipeline to Webpack
+- Built pages based on designs using HTML, SCSS, and JavaScript
 {: .list-plus}
 
 #### Constant Contact, New York, NY
@@ -122,12 +122,12 @@ October 2016 - March 2017
 
 **Software Engineer**
 
-- Work on a small team of engineers that works closely with the sales and product teams
-- Engage in agile development including team feature planning with Jira
-- Develop and maintain three Rails apps that advertise on Facebook for small businesses and nonprofits
-- Ensure high code quality with Git, CodeClimate, and CircleCI
-- Practice test-driven development with RSpec and Capybara in comprehensive test suites
-- Deploy, monitor and debug production apps through Heroku, Honeybadger, Jenkins, New Relic, and Splunk
+- Worked on a small team of engineers that worked closely with the sales and product teams
+- Engaged in agile development including team feature planning with Jira
+- Developed and maintained three Rails apps that advertised on Facebook for small businesses and nonprofits
+- Ensured high code quality with Git, CodeClimate, and CircleCI
+- Practiced test-driven development with RSpec and Capybara in comprehensive test suites
+- Deployed, monitored and debugged production apps through Heroku, Honeybadger, Jenkins, New Relic, and Splunk
 {: .list-plus}
 
 #### Flatiron School, New York, NY
