@@ -51,3 +51,24 @@ pry(main)> `code -r #{source_info[0]}`
 ```
 
 Alternatively, we could use the mouse and click on the file path in the VS Code terminal while holding Control (Linux/Windows) or Command (MacOS).
+
+If we are in IRB, we can use `show_source`
+
+```rb
+➤  irb
+3.2.3 :001 > require 'active_record'
+true
+3.2.3 :002 > show_source ActiveRecord::Base.create
+
+# From: /home/myuser/.rvm/gems/ruby-3.2.3/gems/activerecord-7.0.8.1/lib/active_record/persistence.rb:33
+
+      def create(attributes = nil, &block)
+        if attributes.is_a?(Array)
+          attributes.collect { |attr| create(attr, &block) }
+        else
+          object = new(attributes, &block)
+          object.save
+          object
+        end
+      end
+```
