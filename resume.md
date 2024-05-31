@@ -20,7 +20,7 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 - Containers (AWS ECS, Docker, Docker Compose, Kubernetes)
 - CSS (SCSS)
 - Databases (Microsoft SQL Server, MySQL, Oracle SQL, PostgreSQL, Redis, SQLite)
-- Deployment and Infratstructure (Ansible, AWS Code Pipeline, Capistrano, CircleCI, GitHub Actions, Jenkins, Terraform, Travis CI)
+- Deployment and Infrastructure (Ansible, AWS Code Pipeline, Capistrano, CircleCI, GitHub Actions, Jenkins, Terraform, Travis CI)
 - HTML (HTML5)
 - JavaScript (Angular v1, Cropper, Electron, Express, Inputmask, JQuery, Node.js, Quill, React, typeahead.js, TypeScript, Webpack, Yarn)
 - LDAP (ActiveDirectory, OpenDJ, OpenLDAP, PingDirectory)
