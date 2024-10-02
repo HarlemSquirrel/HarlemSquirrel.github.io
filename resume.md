@@ -15,11 +15,13 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 ### Technologies
 
 - Application web servers (Apache HTTP Server, Puma, Tomcat)
+- API models (gRPC, OpenAPI, REST)
+- Authentication/Authorization (Auth0, OAuth, JWT, SAML)
 - Cloud (AWS EC2, AWS Elastic Beanstalk, AWS S3, AWS Secrets, Digital Ocean, Heroku)
 - Code quality (Brakeman, Code Climate, ESLint, Overcommit, RuboCop, ScssLint, YAMLlint)
 - Containers (AWS ECS, Docker, Docker Compose, Kubernetes)
 - CSS (SCSS)
-- Databases (Microsoft SQL Server, MySQL, Oracle SQL, PostgreSQL, Redis, SQLite)
+- Databases (Kafka, Memcached, MySQL, PostgreSQL, Redis, SQLite)
 - Deployment and Infrastructure (Ansible, AWS Code Pipeline, Capistrano, CircleCI, GitHub Actions, Jenkins, Terraform, Travis CI)
 - HTML (HTML5)
 - JavaScript (Angular v1, Cropper, Electron, Express, Inputmask, JQuery, Node.js, Quill, React, typeahead.js, TypeScript, Webpack, Yarn)
@@ -28,13 +30,11 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 - Load testing (Apache Bench, lb, Siege)
 - Monitoring (Datadog, Honeybadger, New Relic, Rollbar, Sentry, Splunk, Uptime Robot)
 - Multi-factor authentication (Duo)
-- OmniAuth
 - Payment processing (Chargebee, Stripe)
 - PHP (Composer, PHPUnit, SimpleSAMLphp)
 - Project management tools (Asana, Jira, Taiga, Trello)
 - Python (Flask, ldap3, pytest)
 - Ruby (Active Admin, ActiveLDAP, Capybara, Devise, Haml, JRuby, Net::LDAP, Rails, RSpec, RVM, Selenium, Sidekiq, Sinatra, VCR, WebMock)
-- SAML (omniauth-saml, ruby-saml, SimpleSAMLphp)
 - Shell scripting
 - Version control (Bitbucket, GitLab, GitHub)
 {: .list-plus}
@@ -47,6 +47,9 @@ Oct 2021 - Present
 
 **Staff Software Engineer**
 
+- Designed and built a fraud detection system with queue for manual reviews
+- Designed and built a service to stream events from Salesforce to Kafka using gRPC subscriptions
+- Built interface to sync data from distributed systems to Salesforce through Kafka
 - Designed and built TypeScript Express app with dynamically generated endpoints to serve complex aggregate queries from our data warehouse.
 - Reduced endpoint latency by tweaking PostgreSQL queries and creating composite indexes
 - Paired with developers at different levels across teams to solve complex problems and share knowledge
