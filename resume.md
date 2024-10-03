@@ -47,14 +47,14 @@ Oct 2021 - Present
 
 **Staff Software Engineer**
 
-- Designed and built a fraud detection system with queue for manual reviews
+- Created a fraud detection system with queue for manual reviews
 - Designed and built a service to stream events from Salesforce to Kafka using gRPC subscriptions
-- Built interface to sync data from distributed systems to Salesforce through Kafka
+- Developed interface to sync data from distributed systems to Salesforce through Kafka
 - Designed and built TypeScript Express app with dynamically generated endpoints to serve complex aggregate queries from our data warehouse.
 - Reduced endpoint latency by tweaking PostgreSQL queries and creating composite indexes
 - Paired with developers at different levels across teams to solve complex problems and share knowledge
 - Created technical flow diagrams for complex data ingestion and state machines
-- Assisted with on-boarding new engineers
+- Dockerized a large Rails monolith
 - Devised and implemented a solution to reduce failed bookings
 - Planned and performed complex data migrations and software upgrades with zero down time
 - Lead efforts to improve system monitoring across the organization to minimize outages
