@@ -41,7 +41,7 @@ I am a big fan of open source software. I have a number of my own projects on Gi
 
 ### Work History
 
-#### Hotel Engine, Remote
+#### Engine, Remote
 
 Oct 2021 - Present
 
