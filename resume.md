@@ -47,7 +47,7 @@ Oct 2021 - Present
 
 **Staff Software Engineer**
 
-- Created a fraud detection system with queue for manual reviews
+- Crafted an event-driven fraud prevention system with machine learning and automation
 - Designed and built a service to stream events from Salesforce to Kafka using gRPC subscriptions
 - Developed interface to sync data from distributed systems to Salesforce through Kafka
 - Designed and built TypeScript Express app with dynamically generated endpoints to serve complex aggregate queries from our data warehouse.
